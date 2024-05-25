@@ -515,7 +515,7 @@ header{
 }
 .viewall{
     color: var(--main-color);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     padding-inline-start: 100px;
     /* font-size: 20px; */
@@ -524,6 +524,9 @@ header{
     display: block;
     margin-block-start: 35px;
 }
+/* .products .viewall{
+    margin-block-start: 20px;
+} */
 .viewall:hover{
     color: var(--main-color);
 }
@@ -722,6 +725,9 @@ header{
     margin-block-start: 14px;
     margin-block-end: 14px;
 }
+.slide-pic h4 + div{
+    margin-block-start: 16px;
+}
 .slide-pic h4{
     width: 100%;
     overflow: hidden;
@@ -731,7 +737,7 @@ header{
     line-clamp: 1 !important;
     -webkit-box-orient: vertical;
     /* margin-block-start: -60px; */
-    margin-block-end: 16px;
+    /* margin-block-end: 16px; */
 }
 .dl_pg .slide-one .on svg use {
     stroke: #f43965;
@@ -3512,9 +3518,9 @@ textarea{
 /* .products{
     margin-block-end: 30px;
 } */
-.products .slick-prev, .products .slick-next{
+/* .products .slick-prev, .products .slick-next{
     inset-block-end: -70px;
-} 
+}  */
 header nav:last-child .nav-div .nav-link, header nav:last-child .nav-div a{
     color: var(--writing-color) !important;
 }
@@ -3556,7 +3562,7 @@ select.form-control{
     border: 0.45px solid #FFFFFF;
 }
 .mrka{
-    width: 36.49px;
+    width: 37px;
     height: 16px;
     display: inline !important;
 }
@@ -3991,6 +3997,9 @@ a:hover{
     .viewall{
         margin-block-start: 10px;
     }
+    .products .viewall{
+        margin-block-start: 32px;
+    }
     h1{
         font-weight: 500;
     }
@@ -4167,9 +4176,9 @@ a:hover{
         font-size: 6.23px;
         font-weight: 700;
     }
-    .reset_slide .slide-one .slide-pic h4{
+    /* .reset_slide .slide-one .slide-pic h4{
         font-size: 10.68px;
-    }
+    } */
     .reset_slide .slide-one{
         padding-block-end: 8.73px;
         position: relative;
@@ -4214,14 +4223,14 @@ a:hover{
     /* .reservedPeople{
         display: block;
     } */
-    .reservedPeople img{
+    /* .reservedPeople img{
         width: 10px;
         height: 10px;
 
     }
     .reservedPeople img:not(:first-child){
         margin-inline-start: -3px;
-    }
+    } */
     .reset_slide .rserved .smbtext{
         padding-inline-start: 4px;
     }
@@ -4396,7 +4405,7 @@ a:hover{
     /* .slide-pic h4{
         margin-block-start: -45px;
     } */
-    .offers .viewall{
+    .viewall{
         padding-inline-start: 28px;
         font-size: 14px;
     }
@@ -4757,6 +4766,12 @@ a:hover{
     }
     .testimo{
         padding-bottom: 9px;
+        max-height: 163px !important;
+    }
+    .test_img {
+        max-height: 136px;
+        height: 100%;
+        max-width: 118px;
     }
     .stars{
         margin-block-end: 12px;
@@ -5139,8 +5154,11 @@ a:hover{
         padding-block: 5px;
         padding-inline: 26px;
     }
-    .sitem-price, .dl_pg .ptimenum, .dl_pg .ptimenum + .smbtext{
+    .dl_pg .ptimenum, .dl_pg .ptimenum + .smbtext{
         font-size: 14px;
+    }
+    .sitem-price{
+        font-size: 18px;
     }
     /* .featuredadvertisement img{
         width: 16px;
