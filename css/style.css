@@ -3562,7 +3562,7 @@ select.form-control{
     border: 0.45px solid #FFFFFF;
 }
 .mrka{
-    width: 37px;
+    max-width: 40px;
     height: 16px;
     display: inline !important;
 }
@@ -4025,10 +4025,10 @@ a:hover{
     .reset_slide .brand{
         font-size:6.23px;
     }
-    .mrka{
+    /* .mrka{
         width: 16.24px;
         height: 7.12px;
-    }
+    } */
     .company_for_user .sitem-content{
         margin-block-start: -34.86px;
     }
@@ -4291,10 +4291,10 @@ a:hover{
     .offers .slick-prev, .offers .slick-next, .products .slick-prev, .products .slick-next, .testimonial-slider .slick-next, .testimonial-slider .slick-prev{
         inset-block-end: -50px;
     }
-    .offers  .mrka {
+    /* .offers  .mrka {
         width: 33.84px;
         height: 14.84px;
-    }
+    } */
     .deal_slide_one .main-blue-btn{
         padding-block: 11px;
     }
