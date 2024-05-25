@@ -217,7 +217,7 @@ h4.mColored{
     font-size: 16px;
 }
 .smtext{
-    font-size: 12px;
+    font-size: 14px;
 }
 .hero-text{
     color: var(--main-alt-text);
@@ -3201,6 +3201,16 @@ div:not(.no_dl) .deal-successfully.success{
     padding-block: 16px;
     padding-inline: 16px;
     margin-inline-end: 40px;
+    max-height: 312px;
+    height: 100%;
+    position: relative;
+}
+.test_img{
+    max-width: 240px;
+    height: 100%;
+}
+.test_img .img-fluid{
+    height: 100%;
 }
 .stars img{
     width: 20.8px;
@@ -3524,9 +3534,6 @@ textarea{
 header nav:last-child .nav-div .nav-link, header nav:last-child .nav-div a{
     color: var(--writing-color) !important;
 }
-.test_img .img-fluid{
-    height: 100%;
-}
 select.form-control{
     padding-block: 0;
 }
@@ -3642,9 +3649,10 @@ a:hover{
     .special-slick-slider .sitem-content h4{
         margin-block-start: 120px;
     }
-    /* .products .slick-arrow{
-        display: none !important;
-    } */
+    .testi_btm{
+        position: absolute;
+        inset-block-end: 30px;
+    }
 }
 @media (max-width:1280px) {
     .login_form .main-btn{
@@ -4211,15 +4219,15 @@ a:hover{
     .reset_slide .profile_owner{
         margin-block-end: 0;
     }
-    .reset_slide .slide-pic .smbtext,.reset_slide .slide-pic .smtext, .reset_slide .slide-pic .smtext + span{
+    /* .reset_slide .slide-pic .smbtext,.reset_slide .slide-pic .smtext, .reset_slide .slide-pic .smtext + span{
         font-size: 5.34px;
-    }
-    .reset_slide .reset_slide .sitem-price{
+    } */
+    /* .reset_slide .reset_slide .sitem-price{
         font-size: 8.9px;
-    }
-    .reset_slide .brand + span img{
+    } */
+    /* .reset_slide .brand + span img{
         width: 16px;
-    }
+    } */
     /* .reservedPeople{
         display: block;
     } */
@@ -4765,8 +4773,8 @@ a:hover{
         margin-block-end: 44px;
     }
     .testimo{
-        padding-bottom: 9px;
-        max-height: 163px !important;
+        padding-block: 9px;
+        max-height: 154px !important;
     }
     .test_img {
         max-height: 136px;
