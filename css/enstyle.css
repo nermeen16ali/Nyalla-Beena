@@ -1,0 +1,28 @@
+.slick-next::after{
+    content: url(../images/prev.png);
+}
+.slick-prev::after{
+    content: url(../images/next.png);
+}
+.hproduct-img{
+    inset-inline-start: unset;
+    inset-inline-end: 50%;
+}
+.play-btn{
+    inset-inline-start: 50%;
+}
+.navbar-brand{
+    margin-right: 30px;
+}
+@media (max-width:991px) {
+    .navbar-brand{
+        inset-inline-start: unset;
+        margin-right: unset;
+        inset-inline-end: 50%;
+    }
+}
+@media (max-width:767px) {
+    .hero-btns a, .hero-btns button{
+        width: unset;
+    }
+}
