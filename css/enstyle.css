@@ -14,6 +14,12 @@
 .navbar-brand{
     margin-right: 30px;
 }
+.prev_page img {
+    transform: rotate(180deg);
+}
+.navbar-light .navbar-toggler-icon {
+    transform: rotate(180deg);
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;
