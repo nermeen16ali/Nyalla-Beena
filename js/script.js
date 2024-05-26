@@ -147,8 +147,8 @@ $('.testimonial-slider').slick({
   slidesToShow: 2,
   slidesToScroll:2,
   autoplay: true,
-  autoplaySpeed:1500,
   rtl: true,
+  autoplaySpeed:1500,
   responsive: [
     {
       breakpoint: 1024,
@@ -177,8 +177,8 @@ $('.testimonial-slider').slick({
 $('.autoplay').slick({
   slidesToShow: 6,
   slidesToScroll: 1,
-  rtl: true,
   autoplay: true,
+  rtl: true,
   autoplaySpeed:1500,
   responsive: [
     {
