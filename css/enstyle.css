@@ -29,6 +29,6 @@
 }
 @media (max-width:767px) {
     .hero-btns a, .hero-btns button{
-        width: unset;
+        padding-inline: unset;
     }
 }
