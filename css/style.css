@@ -4241,9 +4241,9 @@ a:hover{
         width: calc(100% - 18px);
         inset-inline-start: 9px;
     }
-    .offer_lists .ptimenum + .smbtext{
+    /* .offer_lists .ptimenum + .smbtext{
         display: none;
-    }
+    } */
     .default_off_list .main-blue-btn, .prefered_lists .pref_btn{
         inset-block-end: 10px;
     }
