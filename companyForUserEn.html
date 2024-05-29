@@ -11,37 +11,188 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light top-nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-              >
-              <img src="images/en-logo.png" class="img-fluid d-none d-lg-block " alt=""
-            />
-            <img src="images/res_logo.png" class="img-fluid d-lg-none " alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <button class="close_mobile_menu d-lg-none bg-transparent border-0 ">
-              <span><i class="fa-solid fa-xmark"></i></span>
+        <nav class="navbar navbar-expand-lg navbar-light top-nav">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+                >
+                <img src="images/en-logo.png" class="img-fluid d-none d-lg-block " alt=""
+              />
+              <img src="images/res_logo.png" class="img-fluid d-lg-none " alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="navbar-nav">
-              <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
-                <div class="d-flex align-items-center gap-3">
-                  <div class="img-container">
-                    <img src="images/sidebar_owner.png" class="img-fluid " alt="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <button class="close_mobile_menu d-lg-none bg-transparent border-0 ">
+                <span><i class="fa-solid fa-xmark"></i></span>
+              </button>
+              <ul class="navbar-nav">
+                <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="img-container">
+                      <img src="images/sidebar_owner.png" class="img-fluid " alt="">
+                    </div>
+                    <div class="sidebar_header_text">
+                      <span>Welcome</span>
+                      <h6>Mohammed Mustafa</h6>
+                    </div>
                   </div>
-                  <div class="sidebar_header_text">
-                    <span>مرحبا بـك</span>
-                    <h6>محمـد مصـطفـي عـلـي</h6>
+                  <div class="nav-item dropdown d-lg-none ">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    <img src="images/langg.png" class="langg" alt="">
+                      English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    </ul>
                   </div>
                 </div>
-                <div class="nav-item dropdown d-lg-none ">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html"
+                    >
+                    <span class="d-lg-none"><i class="fa-solid fa-house"></i></span>
+                    Home
+                  </a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="story.html">
+                    <img src="images/mobileYalla.png" class="home_mobile d-lg-none " alt="">
+                    Yalla Beena
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="companyForSeller.html">
+                    <img src="images/mobileProduct.png" class="home_mobile d-lg-none " alt="">
+                    Sections
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offers_list.html">
+                    <img src="images/mobileDeals.png" class="home_mobile d-lg-none " alt="">
+                    Deals
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="specific_producr.html">
+                    <img src="images/mobileDemand.png" class="home_mobile d-lg-none " alt="">
+                    Request Product
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact_us.html">
+                    <img src="images/contact-mail.png" class="home_contact d-lg-none " alt="">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+              <div class="d-flex nav-div justify-content-between">
+                <a href="notification.html" class="notcon d-none d-lg-block">
+                  <img src="images/nav-notification.png" alt="">
+                </a>
+                <a href="myAccount.html" class="profile_owner d-none d-lg-flex">
+                  <img src="images/header_vector.png" class="img-fluid " alt="">
+                  <span>Mohammed Mustafa</span>
+                </a>
+                <a href="#" class="log_out d-flex d-lg-none align-items-center ">
+                  <img src="images/Sign-out.png" class="img-fluid " alt="">
+                  <span>Logout</span>
+                </a>
+                <a href="#" class="delete_account  d-flex d-lg-none ">
+                  <img src="images/deleteAccount.png" class="img-fluid " alt="">
+                  <span>Delete Account</span>
+                </a>
+              </div>
+            </div>
+            <a href="notification.html" class="notif-icon d-lg-none ">
+              <span><img src="images/header_not_mobile.png" class="img-fluid " alt="Vector"></span>
+            </a>
+          </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light second-nav d-none d-lg-block ">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="img-container">
+                      <img src="images/sidebar_owner.png" class="img-fluid " alt="">
+                    </div>
+                    <div class="sidebar_header_text">
+                      <span>Welcome</span>
+                      <h6>Mohammed Mustafa</h6>
+                    </div>
+                  </div>
+                  <div class="nav-item dropdown d-lg-none ">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                    <img src="images/langg.png" class="langg" alt="">
+                      English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Arabic</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <li class="nav-item searcharea">
+                  <input
+                    type="text"
+                    placeholder="Search for any product here...."
+                  />
+                  <span class="position-absolute"></span>
+                  <div class="search-icon">
+                    <img src="images/searchbox.png" class="img-fluid" alt="" />
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >Large devices
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -50,103 +201,18 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                  <img src="images/langg.png" class="langg" alt="">
-                    English
+                    Small household appliances
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">انجليزي</a></li>
-                    <li><a class="dropdown-item" href="#">عربي</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
                   </ul>
-                </div>
-              </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >
-                  <span class="d-lg-none"><i class="fa-solid fa-house"></i></span>
-                  الرئيسية
-                </a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="story.html">
-                  <img src="images/mobileYalla.png" class="home_mobile d-lg-none " alt="">
-                  يلا بينا ؟</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="companyForSeller.html">
-                  <img src="images/mobileProduct.png" class="home_mobile d-lg-none " alt="">
-                  الاقسام
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="offers_list.html">
-                  <img src="images/mobileDeals.png" class="home_mobile d-lg-none " alt="">
-                  قائمة العروض
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="specific_producr.html">
-                  <img src="images/mobileDemand.png" class="home_mobile d-lg-none " alt="">
-                  اطلب منتج محدد
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact_us.html">
-                  <img src="images/contact-mail.png" class="home_contact d-lg-none " alt="">
-                  تواصل معنا
-                </a>
-              </li>
-            </ul>
-            <div class="d-flex nav-div justify-content-between">
-              <a href="notification.html" class="notcon d-none d-lg-block">
-                <img src="images/nav-notification.png" alt="">
-              </a>
-              <a href="myAccount.html" class="profile_owner d-none d-lg-flex">
-                <img src="images/header_vector.png" class="img-fluid " alt="">
-                <span>محمد مصطفي</span>
-              </a>
-              <a href="#" class="log_out d-flex d-lg-none align-items-center ">
-                <img src="images/Sign-out.png" class="img-fluid " alt="">
-                <span>تســجــيل الخروج</span>
-              </a>
-              <a href="#" class="delete_account  d-flex d-lg-none ">
-                <img src="images/deleteAccount.png" class="img-fluid " alt="">
-                <span>حذف الحساب</span>
-              </a>
-            </div>
-          </div>
-          <a href="notification.html" class="notif-icon d-lg-none ">
-            <span><img src="images/header_not_mobile.png" class="img-fluid " alt="Vector"></span>
-          </a>
-        </div>
-      </nav>
-      <nav class="navbar navbar-expand-lg navbar-light second-nav d-none d-lg-block ">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
-                <div class="d-flex align-items-center gap-3">
-                  <div class="img-container">
-                    <img src="images/sidebar_owner.png" class="img-fluid " alt="">
-                  </div>
-                  <div class="sidebar_header_text">
-                    <span>مرحبا بـك</span>
-                    <h6>محمـد مصـطفـي عـلـي</h6>
-                  </div>
-                </div>
-                <div class="nav-item dropdown d-lg-none ">
+                </li>
+                <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -155,134 +221,86 @@
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                  <img src="images/langg.png" class="langg" alt="">
+                    Kitchen appliances
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Brands
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                    <li><a class="dropdown-item" href="#">devices</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-flex nav-div">
+                <div class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     English
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">انجليزي</a></li>
-                    <li><a class="dropdown-item" href="#">عربي</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  </ul>
+                </div>
+                <div class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <div class="flag">
+                      <img src="images/Egypt.png" class="img-fluid" alt="" />
+                    </div>
+                    <span>Egypt</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Egypt</a></li>
+                    <li><a class="dropdown-item" href="#">canada</a></li>
                   </ul>
                 </div>
               </div>
-              <li class="nav-item searcharea">
-                <input
-                  type="text"
-                  placeholder="ابــحــث عن اي منتج هــنــا...."
-                />
-                <span class="position-absolute"></span>
-                <div class="search-icon">
-                  <img src="images/searchbox.png" class="img-fluid" alt="" />
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  الاجهـزة الكـبـيرة
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  الاجهـزة الـمنزلية الصغيرة
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  اجهـزة الـمطبـخ
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  العلامات التجارية
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                  <li><a class="dropdown-item" href="#">أجهزة</a></li>
-                </ul>
-              </li>
-            </ul>
-            <div class="d-flex nav-div">
-              <div class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  English
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">انجليزي</a></li>
-                  <li><a class="dropdown-item" href="#">عربي</a></li>
-                </ul>
-              </div>
-              <div class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle d-flex align-items-center"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <div class="flag">
-                    <img src="images/Egypt.png" class="img-fluid" alt="" />
-                  </div>
-                  <span>مصر</span>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">مصر</a></li>
-                  <li><a class="dropdown-item" href="#">كندا</a></li>
-                </ul>
-              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
     </header>
-    <div class="company_for_user ration_container">
+    <div class="ration_container company_for_user">
         <div class="container-fluid">
-          <a href="settings.html" class="prev_page d-lg-none"><span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <a href="settings.html" class="prev_page d-lg-none"><span><i class="fa-solid fa-arrow-right"></i></span></a>
         </div>
         <div class="container-fluid container_reset position-relative ">
             <div class="company_area">
@@ -295,34 +313,15 @@
             </div>
         </div>
         <div class="container-fluid">
-            <h6 class="section_title">اقسام الشركة</h6>
+            <h6 class="section_title">أقسام الشركة</h6>
             <div class="depart_btns">
                 <button class="fridges">ثلاجات</button>
                 <button class="cooker">أفران</button>
                 <button class="wishers">غسالات</button>
             </div>
-            <div class="seller_deals d-flex align-items-center justify-content-between ">
-                <div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            صفقات جديدة
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            الصفقات القديمة
-                        </label>
-                      </div>
-                </div>
-                <a href="createdeal.html" class="cr_nw_dl main-btn">
-                    إنشاء صفقة جديدة
-                </a>
-            </div>
             <h4 class="mb-24">عروض الشركة</h4>
-            <div class="row">
-                <div class="col-12 col-lg-4 mb-24">
+            <div class="row reset_slide">
+                <div class="col-6 col-lg-4 mb-24">
                   <div class="slide-one">
                     <div class="slide-one-header main d-flex justify-content-center position-relative ">
                       <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -399,31 +398,20 @@
                             >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                           >
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                            <a href="deal.html" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="deal.html" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                        <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                          <span class="brannnnd"
+                            ><img
+                              src="images/offerdetails.png"
+                              class="img-fluid detailsIcon"
+                              alt=""
+                          /></span>
+                          <span>تفاصيل العرض</span>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 mb-24">
+                <div class="col-6 col-lg-4 mb-24">
                   <div class="slide-one">
                     <div class="slide-one-header yellow d-flex justify-content-center position-relative ">
                       <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -500,31 +488,20 @@
                             >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                           >
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                        <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                          <span class="brannnnd"
+                            ><img
+                              src="images/offerdetails.png"
+                              class="img-fluid detailsIcon"
+                              alt=""
+                          /></span>
+                          <span>تفاصيل العرض</span>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 mb-24">
+                <div class="col-6 col-lg-4 mb-24">
                   <div class="slide-one">
                     <div class="slide-one-header aqua d-flex justify-content-center position-relative ">
                       <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -601,31 +578,20 @@
                             >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                           >
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                        <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                          <span class="brannnnd"
+                            ><img
+                              src="images/offerdetails.png"
+                              class="img-fluid detailsIcon"
+                              alt=""
+                          /></span>
+                          <span>تفاصيل العرض</span>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 mb-24">
+                <div class="col-6 col-lg-4 mb-24">
                   <div class="slide-one">
                     <div class="slide-one-header main d-flex justify-content-center position-relative ">
                       <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -702,31 +668,20 @@
                             >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                           >
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                        <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                          <span class="brannnnd"
+                            ><img
+                              src="images/offerdetails.png"
+                              class="img-fluid detailsIcon"
+                              alt=""
+                          /></span>
+                          <span>تفاصيل العرض</span>
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 mb-24">
+                <div class="col-6 col-lg-4 mb-24">
                     <div class="slide-one">
                       <div class="slide-one-header yellow d-flex justify-content-center position-relative ">
                         <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -801,31 +756,20 @@
                               >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                             >
                           </div>
-                          <div class="d-flex align-items-center gap-2">
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                          <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                            <span class="brannnnd"
+                              ><img
+                                src="images/offerdetails.png"
+                                class="img-fluid detailsIcon"
+                                alt=""
+                            /></span>
+                            <span>تفاصيل العرض</span>
+                          </a>
                         </div>
                       </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 mb-24">
+                <div class="col-6 col-lg-4 mb-24">
                     <div class="slide-one">
                       <div class="slide-one-header aqua d-flex justify-content-center position-relative ">
                         <span class="smtext position-absolute remainingtime">الوقت المتبقي:</span>
@@ -900,26 +844,15 @@
                               >عدد الاجهزة المحجوزة داخل العرض (4) - متبقي(4)</span
                             >
                           </div>
-                          <div class="d-flex align-items-center gap-2">
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة جديدة</span>
-                            </a>
-                            <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
-                                <span class="brannnnd"
-                                  ><img
-                                    src="images/offerdetails.png"
-                                    class="img-fluid detailsIcon"
-                                    alt=""
-                                /></span>
-                                <span>صفقة قديمة</span>
-                            </a>
-                        </div>
+                          <a href="#" class="main-blue-btn d-flex align-items-center justify-content-center w-100">
+                            <span class="brannnnd"
+                              ><img
+                                src="images/offerdetails.png"
+                                class="img-fluid detailsIcon"
+                                alt=""
+                            /></span>
+                            <span>تفاصيل العرض</span>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -929,7 +862,7 @@
                       <ul>
                         <li class="btn prev">
                           <span>
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <img src="images/pagin-bck.svg" alt="">
                           </span>
                         </li>
                         <li class="num active"><span>1</span></li>
@@ -938,7 +871,7 @@
                         <li class="num"><span>4</span></li>
                         <li class="btn next">
                           <span>
-                            <i class="fa-solid fa-arrow-left"></i>
+                            <img src="images/carat.png" alt="">
                           </span>
                         </li>
                       </ul>
@@ -950,10 +883,10 @@
     <div class="mobile_footer d-md-none ">
       <div class="mobile_nav">
         <ul class="d-flex align-items-center justify-content-between text-center position-relative z-3 ">
-          <li><a href="index.html" class="active"><span><i class="fa-solid fa-house"></i></span><p>بيت</p></a></li>
-          <li><a href="search.html"><span><i class="fa-solid fa-magnifying-glass"></i></span><p>بحث</p></a></li>
-          <li><a href="prefered_offers.html" class="hearted"><span><i class="fa-regular fa-heart"></i></span><p>مفضل</p></a></li>
-          <li><a href="settings.html"><span><i class="fa-regular fa-user"></i></span><p>حساب تعريفي</p></a></li>
+          <li><a href="index.html" class="active"><span><i class="fa-solid fa-house"></i></span><p>Home</p></a></li>
+          <li><a href="search.html"><span><i class="fa-solid fa-magnifying-glass"></i></span><p>Search</p></a></li>
+          <li><a href="prefered_offers.html" class="hearted"><span><i class="fa-regular fa-heart"></i></span><p>Favorite</p></a></li>
+          <li><a href="settings.html"><span><i class="fa-regular fa-user"></i></span><p>Profile</p></a></li>
         </ul>
       </div>
     </div>
