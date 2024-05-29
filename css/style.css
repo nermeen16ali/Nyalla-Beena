@@ -287,6 +287,9 @@ header:not(.register_header){
 .search-icon img{
     margin-block-end: 12px;
 }
+.navbar{
+    padding: unset;
+}
 .navbar-brand{
     max-width: 97px;
     margin-inline-end: 30px;
