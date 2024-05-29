@@ -42,6 +42,10 @@
 form .form-select{
     background-position: right 8px center;
 }
+.sign_form .humous-circle{
+    inset-inline-end: 50%;
+    inset-inline-start: unset;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;

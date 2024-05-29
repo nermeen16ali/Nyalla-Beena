@@ -2788,10 +2788,10 @@ div:not(.no_dl) .deal-successfully.success{
     color: #3F4D55;
     margin-block-end: 29px;
 }
-.sign_form{
+/* .sign_form{
     padding-block-start: 32px;
     padding-block-end: 28px;
-}
+} */
 /* .login_form .main-btn{
     margin-block-start: 467px;
 } */

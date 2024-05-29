@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>يلا بينا - إنشاء حساب جديد</title>
+    <title> Yalla Beena - Create New Account</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/enstyle.css" />
   </head>
   <body>
     <header class="register_header">
@@ -36,7 +37,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <button class="close_mobile_menu d-lg-none bg-transparent border-0 ">
-              <span><i class="fa-solid fa-xmark"></i></span>
+                <span><i class="fa-solid fa-xmark"></i></span>
             </button>
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -59,12 +60,12 @@
       <a href="settings.html" class="prev_page d-lg-none"><span><i class="fa-solid fa-arrow-right"></i></span></a>
         <div class="row inner_ratio_container">
             <div class="col-12 col-lg-6 myAccount_content position-relative">
-                <h4>انشاء حساب جديد في يلا بينــا</h4>
+                <h4>Create a new account in Yalla Beena</h4>
                 <form class="row">
                     <div class="col-12 mb-24">
-                        <span class="form-label">الاسم بالكامل</span>
+                        <span class="form-label">Full name</span>
                         <div class="position-relative ">
-                            <input type="text" class="form-control active " value="مـحمد مصطفي علي">
+                            <input type="text" class="form-control active " value="Muhammad Mustafa Ali">
                             <div class="svg-container position-absolute ">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7.885 7.70726C8.94384 7.70726 9.86058 7.3275 10.6099 6.57823C11.3589 5.82909 11.7388 4.91247 11.7388 3.85351C11.7388 2.79492 11.359 1.87817 10.6097 1.12878C9.86046 0.37976 8.94372 0 7.885 0C6.82604 0 5.90942 0.37976 5.16028 1.1289C4.41113 1.87805 4.03125 2.79479 4.03125 3.85351C4.03125 4.91247 4.41113 5.82921 5.16028 6.57836C5.90966 7.32738 6.82641 7.70726 7.885 7.70726ZM5.82336 1.79187C6.39819 1.21704 7.0725 0.93762 7.885 0.93762C8.69738 0.93762 9.37182 1.21704 9.94677 1.79187C10.5216 2.36682 10.8011 3.04125 10.8011 3.85351C10.8011 4.66601 10.5216 5.34032 9.94677 5.91527C9.37182 6.49022 8.69738 6.76964 7.885 6.76964C7.07275 6.76964 6.39843 6.4901 5.82336 5.91527C5.24841 5.34044 4.96887 4.66601 4.96887 3.85351C4.96887 3.04125 5.24841 2.36682 5.82336 1.79187Z" fill="#5D686F"></path>
@@ -74,10 +75,10 @@
                         </div>
                     </div>
                     <div class="col-12 mb-24">
-                        <span class="form-label">البلد</span>
+                        <span class="form-label">Country</span>
                         <div class="position-relative ">     
                             <select id="country" name="country" class="form-control">
-                                <option value="Afghanistan">اختر البلد</option>
+                                <option value="Afghanistan">Select Country</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Albania">Albania</option>
                                 <option value="Algeria">Algeria</option>
@@ -337,8 +338,8 @@
                             </div>
                         </div>
                     </div>
-                    <span class="form-label">رقم الهاتف</span>
-                    <div class="col-3 col-lg-2 ps-0 mb-24">
+                    <span class="form-label">Phone number</span>
+                    <div class="col-3 col-lg-2 mb-24">
                         <select class="form-control form-select">
                             <option value="+966">+2 EG</option>
                             <!-- Add more country options here -->
@@ -347,9 +348,9 @@
                             <!-- Add more country options here -->
                         </select>
                     </div>
-                    <div class="col-9 col-lg-10 mb-24">
+                    <div class="col-9 col-lg-10 ps-0 mb-24">
                         <div class="position-relative ">
-                            <input type="text" class="form-control" placeholder="اكتب رقم الهاتف هنا...">
+                            <input type="text" class="form-control" placeholder="Enter phone number here...">
                             <div class="svg-container position-absolute ">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_2302_20005)">
@@ -365,9 +366,9 @@
                         </div>
                     </div>
                     <div class="col-12 mb-24">
-                        <span class="form-label">البريد الالكتروني</span>
+                        <span class="form-label">E-mail</span>
                         <div class="position-relative ">
-                            <input type="email" class="form-control" placeholder="اكتب البريد هنا...">
+                            <input type="email" class="form-control" placeholder="Write your email here...">
                             <div class="svg-container position-absolute ">
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M18.3346 4.99998C18.3346 4.08331 17.5846 3.33331 16.668 3.33331H3.33464C2.41797 3.33331 1.66797 4.08331 1.66797 4.99998M18.3346 4.99998V15C18.3346 15.9166 17.5846 16.6666 16.668 16.6666H3.33464C2.41797 16.6666 1.66797 15.9166 1.66797 15V4.99998M18.3346 4.99998L10.0013 10.8333L1.66797 4.99998" stroke="#5D686F" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -376,7 +377,7 @@
                         </div>
                     </div>
                     <div class="col-12 mb-24">
-                        <span class="form-label">رمز المرور</span>
+                        <span class="form-label">Password</span>
                         <div class="position-relative ">
                             <input type="password" class="form-control password" value="***********">
                             <div class="svg-container position-absolute ">
@@ -388,7 +389,7 @@
                         </div>
                     </div>
                     <div class="col-12 mb-24">
-                        <span class="form-label">تاكيد رمز المرور</span>
+                        <span class="form-label">Confirm Password</span>
                         <div class="position-relative ">
                             <input type="password" class="form-control password" value="***********">
                             <div class="svg-container position-absolute ">
@@ -398,12 +399,12 @@
                                 </svg>
                             </div>
                         </div>
-                        <p class="error_text">رمز المرور المدخل غير متطابق يرجي التاكيد من رمز المرور</p>
+                        <p class="error_text">The entered Password does not match. Please confirm the passcode</p>
                     </div>
                     <div class="col-12 d-flex flex-column ratio_btn">
-                      <button class="main-btn">إنشاء حسابي</button>
-                      <button class="google_account"><img src="images/google_account.png" alt="">إنشاء حساب عن طريق جوجل</button>
-                      <a href="login.html" class="have_account text-center ">لديك حساب بالفعل ؟ <span>سجل الدخول الآن</span></a>
+                      <button class="main-btn">Create my account</button>
+                      <button class="google_account"><img src="images/google_account.png" alt="">Register an account via Google</button>
+                      <a href="login.html" class="have_account text-center ">Already have an account?<span> Log in now</span></a>
                     </div>
                 </form>
             </div>
@@ -411,7 +412,7 @@
                 <div class="deal_step_two_img main">
                   <div class="vector-box">
                     <img src="images/step-two-vector.png" class="img-fluid " alt="">
-                    <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص</p>
+                    <p>This text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator, where you can generate such text</p>
                   </div>
                   <div class="step-two-man-pic text-center position-relative ">
                     <div class="humous-circle position-absolute d-flex justify-content-end ">
