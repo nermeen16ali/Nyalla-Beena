@@ -4571,9 +4571,9 @@ a:hover{
         font-size: 24px;
     }
     .back-to-top{
-        width: 24px;
-        height: 24px;
-        line-height: 24px;
+        width: 28px;
+        height: 28px;
+        line-height: 30px;
     }
     .back-to-top span i{
         font-size: 12px;
