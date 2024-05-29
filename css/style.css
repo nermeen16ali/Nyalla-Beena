@@ -1881,9 +1881,9 @@ form .form-select{
     border-color: #F04438;
     color: #F04438;
 }
-.myAccount_content .main-btn{
+/* .myAccount_content .main-btn{
     margin-block-start: 160px;
-}
+} */
 .account_owner_img{
     width: 96px;
     height: 96px;
@@ -2709,10 +2709,10 @@ div:not(.no_dl) .deal-successfully.success{
     padding-block: 10px;
     margin-inline-end: 12px;
 }
-.sign_form button{
+/* .sign_form button{
     width: 85%;
     margin-inline: auto;
-}
+} */
 /* .sign_form .main-btn{
     margin-block-start: 3px;
     margin-block-end: 16px;
@@ -2859,9 +2859,9 @@ div:not(.no_dl) .deal-successfully.success{
     font-weight: 500;
     width: unset;
 }
-.resend_form .main-btn{
+/* .resend_form .main-btn{
     margin-block-start: 550px;
-}
+} */
 .register_header .nav-link img{
     width: 24px;
 }
@@ -3790,9 +3790,9 @@ a:hover{
     /* .login_form .main-btn{
         margin-block-start: 435px;
     } */
-    .resend_form .main-btn{
+    /* .resend_form .main-btn{
         margin-block-start: 525px;
-    }
+    } */
     /* .confirm_form .main-btn{
         margin-block-start: 440px;
     } */
@@ -3838,9 +3838,9 @@ a:hover{
         width: 320px;
         height: 320px;
     }
-    .resend_form .main-btn{
+    /* .resend_form .main-btn{
         margin-block-start: 392px;
-    }
+    } */
     /* .login_form .main-btn{
         margin-block-start: 260px;
     } */
@@ -3946,9 +3946,9 @@ a:hover{
     .myAccount_content .form-control{
         padding-inline-start:18px;
     }
-    .resend_form .main-btn{
+    /* .resend_form .main-btn{
         margin-block-start: 37px;
-    }
+    } */
     .sign_form button.main-btn{
         width: 100%;
     }
@@ -5314,6 +5314,9 @@ a:hover{
     }
     .navbar{
         padding-inline: unset;
+    }
+    .code-nums{
+        margin-block-start:24px;
     }
 }
 @media (max-width:400px) {
