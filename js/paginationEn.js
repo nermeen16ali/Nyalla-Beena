@@ -11,7 +11,7 @@ const ulTag = document.querySelector(".pagination ul");
     if (page > 1) {
       liTag += `<li class="btn prev"onClick="pagination(${totalP}, ${page - 1})">
                     <span>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <i class="fa-solid fa-arrow-left"></i>
                     </span>
                 </li>`;
     }
@@ -67,7 +67,7 @@ const ulTag = document.querySelector(".pagination ul");
     if (page < totalPages) {
       liTag += `<li class="btn next"onClick="pagination(${totalP}, ${page + 1})">
             <span>
-            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
             </span>
     </li>`;
     }

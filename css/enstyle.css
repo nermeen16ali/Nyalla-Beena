@@ -14,11 +14,24 @@
 .navbar-brand{
     margin-right: 30px;
 }
-.prev_page img {
+.prev_page span i {
     transform: rotate(180deg);
 }
 .navbar-light .navbar-toggler-icon {
     transform: rotate(180deg);
+}
+.form-check .form-check-input{
+    float: left;
+    margin-left: unset;
+}
+.form-check-input + label{
+    padding-inline-start: 8px;
+}
+.add_list .form-check-input + label{
+    padding-inline-start: 24px;
+}
+.form-check{
+    padding-left: unset;
 }
 @media (max-width:991px) {
     .navbar-brand{
