@@ -33,6 +33,15 @@
 .form-check{
     padding-left: unset;
 }
+.steps-progress .step-progress:not(:last-child)::before{
+    inset-inline-start: 42px;
+}
+.steps-progress .step-progress:last-child::before{
+    inset-inline-start: 60px;
+}
+form .form-select{
+    background-position: right 8px center;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;
@@ -43,5 +52,10 @@
 @media (max-width:767px) {
     .hero-btns a, .hero-btns button{
         padding-inline: unset;
+    }
+    #myForm > div > div.deal-step > ul > li:nth-child(3){
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

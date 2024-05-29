@@ -244,6 +244,8 @@ h4.mColored{
 header{
     background-color: var(--white-color);
     box-shadow: 2px 6px 4px 0px #0000000A;
+}
+header:not(.register_header){
     height: 144px;
 }
 .searcharea{
@@ -2685,9 +2687,9 @@ div:not(.no_dl) .deal-successfully.success{
 .final_step_success.final_step_failure .success_btns .main-btn{
     padding-block: 10px;
 }
-.application_deal_wrapper .form-check-step.special .form-check-input{
+/* .application_deal_wrapper .form-check-input{
     padding-inline-end: 20px;
-}
+} */
 .error_text{
     color: #F04438;
     padding-block-start: 13px;
@@ -3959,6 +3961,8 @@ a:hover{
     }
     header{
         background-color: var(--main-color);
+    }
+    header:not(.register_header){
         height: unset;
     }
     .navbar{
@@ -4629,6 +4633,7 @@ a:hover{
     } */
     .application_deal_wrapper h4{
         font-size: 16px;
+        margin-block-end: 0;
     }
     .step-progress .progress-bullet{
         width: 20px;
@@ -5304,6 +5309,9 @@ a:hover{
     .offer_lists .slide-one{
         height: unset;
     }
+    .deal-wrapper .steps-progress{
+        padding-block-end: 22px;
+    }
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
@@ -5354,9 +5362,9 @@ a:hover{
     .no_dl .deal-success{
         max-width: 265px;
     }
-    .deal-wrapper .steps-progress{
+    /* .deal-wrapper .steps-progress{
         padding-block-end: 0;
-    }
+    } */
 }
 .dropdown {
     /* background: #7b1fa2; */
