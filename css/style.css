@@ -2713,11 +2713,11 @@ div:not(.no_dl) .deal-successfully.success{
     width: 85%;
     margin-inline: auto;
 }
-.sign_form .main-btn{
+/* .sign_form .main-btn{
     margin-block-start: 3px;
     margin-block-end: 16px;
     border-radius: 8px;
-}
+} */
 .have_account{
     color: var(--writing-color);
 }
@@ -3926,9 +3926,9 @@ a:hover{
     /* .login_form .main-btn{
         margin-block-start: 385px;
     } */
-    .myAccount_content .main-btn{
+    /* .myAccount_content .main-btn{
         margin-block-start: 210px;
-    }
+    } */
 }
 @media (max-width:991px) {
     .container-fluid, .deal-successfully.success{
@@ -4059,11 +4059,11 @@ a:hover{
     .transText h5{
         margin-block-end:0;
     }
-    .myAccount_content .main-btn{
+    /* .myAccount_content .main-btn{
         margin-block-start: 25px;
         width: 100%;
         display: block;
-    }
+    } */
     .offer_lists .searcharea{
         margin-block-start: 12px;
     }
