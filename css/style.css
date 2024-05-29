@@ -5244,12 +5244,11 @@ a:hover{
         margin-block-start: -23.86px;
     } */
     .offer_lists .offer_status{
-        padding-block-end: 5px;
-        padding-block-start: 4px;
+        padding-block: 4px;
         inset-block-start: 12px;
         inset-inline-end: 14px;
-        font-size: 12px;
-        padding-inline: 12px;
+        font-size: 10px;
+        padding-inline: 8px;
     } 
     /* .sl_img_co.fr{
         max-width: 59px;
