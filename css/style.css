@@ -2810,14 +2810,14 @@ div:not(.no_dl) .deal-successfully.success{
 /* .forget_form .main-btn{
     margin-block-start: 650px;
 } */
-.confirm_form div:has( .main-btn){
+/* .confirm_form div:has( .main-btn){
     display: flex;
-}
-.confirm_form .main-btn{
-    /* margin-block-start: 570px; */
+} */
+/* .confirm_form .main-btn{
+    margin-block-start: 570px;
     text-align: center;
     width: 100% !important;
-}
+} */
 .code-num{
     box-shadow: 2px 4px 8px 0px #0000000F;
     background-color: var(--white-color);
@@ -4002,9 +4002,9 @@ a:hover{
     /* .confirm_form .prev_page img{
         margin-block-end: 27px;
     } */
-    .sign_form.confirm_form .myAccount_content > h4{
+    /* .sign_form.confirm_form .myAccount_content > h4{
         margin-block-end: 34px;
-    }
+    } */
     .myAccount_content button[type="submit"]{
         width: 100%;
         margin-block-start: 11px;
