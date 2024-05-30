@@ -5332,6 +5332,9 @@ a:hover{
     .code-nums{
         margin-block-start:24px;
     }
+    .subscribe_page{
+        padding-block: 0;
+    }
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
