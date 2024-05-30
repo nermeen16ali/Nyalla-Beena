@@ -30,7 +30,7 @@
 .add_list .form-check-input + label{
     padding-inline-start: 24px;
 }
-.form-check{
+.form-check.for_check{
     padding-left: unset;
 }
 .steps-progress .step-progress:not(:last-child)::before{
@@ -46,6 +46,9 @@ form .form-select{
     inset-inline-end: 50%;
     inset-inline-start: unset;
 }
+.no_dl .steps-progress .step-progress:not(:last-child)::before{
+    inset-inline-start: 62px;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;
@@ -57,9 +60,18 @@ form .form-select{
     .hero-btns a, .hero-btns button{
         padding-inline: unset;
     }
-    #myForm > div > div.deal-step > ul > li:nth-child(3){
+    #myForm > div > div.deal-step > ul > li:nth-child(3), .deal-wrapper .steps-progress > li:nth-child(3){
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .deal-wrapper .steps-progress{
+        align-items: start !important;
+    }
+    .step-progress .progress-text, .no_dl .step-progress .progress-text{
+        font-size: 8px;
+    }
+    .no_dl .steps-progress .step-progress:not(:last-child)::before{
+        inset-inline-start: 36px;
     }
 }

@@ -1379,9 +1379,9 @@ footer ul li::marker{
 /* .form-check .form-check-input{
 
 } */
-.deal-wrapper{
+/* .deal-wrapper{
     padding-block-end: 30px;
-}
+} */
 .deal-wrapper .hero-btns button{
     border-radius: 8px;
 }
@@ -1444,8 +1444,11 @@ footer ul li::marker{
 }
 .deal-wrapper h4{
     color: #3F4D55;
-    padding-block-start: 16px;
+    /* padding-block-start: 16px; */
     padding-block-end: 16px;
+}
+.deal-wrapper .hero-btns{
+    margin-block-start: 56px;
 }
 .deal-wrapper .steps-progress{
     padding-block-end: 39px;
@@ -1731,12 +1734,14 @@ form .form-select{
     text-align: center;
 }
 .deal-successfully p{
-    font-size: 24px;
     font-weight: 400;
-    color: var(--main-alt-color);
+    color: #6E737F;
     max-width: 970px;
     margin-inline: auto;
     text-align: center;
+}
+.deal-successfully p:not(.progress-text){
+    font-size: 24px;
 }
 .deal-successfully.success{
     display: block;
@@ -2618,8 +2623,8 @@ select.form-control:not([size]):not([multiple]){
     transform: translateY(-50%);
     inset-inline-end: 34px;
 }
-.no_dl .step-two-man-pic{
-    margin-block-start: 150px;
+.no_dl .deal_step_three  .step-two-man-pic{
+    margin-block-start: 100px;
 }
 #myInput{
     font-size: 20px;
@@ -3763,6 +3768,12 @@ a:hover{
     width: 44px;
     height: 40px;
 }
+.add_feat{
+    top: 50%;
+    transform: translateY(-50%);
+    inset-inline-end: 14px;
+    cursor: pointer;
+}
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
@@ -3884,7 +3895,7 @@ a:hover{
         inset-block-end: 52px;
     } */
     .back-to-top{
-        inset-block-end: 130px;
+        inset-block-end: 102px;
     }
     /* .application_deal_wrapper .form-check.special{
         margin-block-start: 0px;
@@ -4620,6 +4631,9 @@ a:hover{
     .no_dl + .hero-btns{
         padding-inline: 30px;
     }
+    h1{
+        line-height: unset;
+    }
     .companyLogo{
         width: 100%;
     }
@@ -4748,14 +4762,14 @@ a:hover{
         font-size: 12px;
     }
     .product_details_partTwo{
-        padding-block: unset;
+        padding-block-start: 24px;
     }
     .product_details_partThree{
         padding-block-start: 25px;
     }
-    .no_dl{
+    /* .no_dl{
         padding-block-start: 32px;
-    }
+    } */
     .deal-wrapper h4{
         padding-block-start: 0;
     }
@@ -5309,9 +5323,9 @@ a:hover{
     .offer_lists .slide-one{
         height: unset;
     }
-    .deal-wrapper .steps-progress{
+    /* .deal-wrapper .steps-progress{
         padding-block-end: 22px;
-    }
+    } */
     .navbar{
         padding-inline: unset;
     }
