@@ -4230,7 +4230,7 @@ a:hover{
         padding-block: 16px;
     }
     .getting_support_box h4{
-        font-size: 16px;
+        font-size: 15px;
         margin-block-end: 0;
         /* padding-inline-start: 18px; */
     }
@@ -4743,7 +4743,7 @@ a:hover{
         padding-block: 21px;
     } */
     .contact_us{
-        padding-block-start: 33px;
+        padding-block: unset;
     }
     .contact_us h2{
         font-size: 32px;
@@ -4751,16 +4751,16 @@ a:hover{
     .getting_support_box{
         margin-block-start: 50px;
     } 
-    .container-fluid.contact_us{
+    /* .container-fluid.contact_us{
         padding-inline: 0;
-    }
+    } */
     .getting_support_box{
         border-radius: unset;
         padding-inline: 20px;
     }
-    .contact_us .prev_page{
+    /* .contact_us .prev_page{
         margin-inline-start: 20px;
-    }
+    } */
     .no_dl .steps-progress .step-progress:not(:last-child)::before{
         inset-inline-start: 32px;
     }
@@ -5429,6 +5429,12 @@ a:hover{
     /* .deal-wrapper .steps-progress{
         padding-block-end: 0;
     } */
+    .getting_support_box h4{
+        font-size: 13px;
+    }
+    .getting_support_box h3{
+        font-size: 19px;
+    }
 }
 .dropdown {
     /* background: #7b1fa2; */
