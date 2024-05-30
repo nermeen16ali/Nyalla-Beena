@@ -1367,6 +1367,7 @@ footer ul li::marker{
     background-color: #E9ECF6;
     border-radius: 17px;
     height: 129px;
+    border-radius: 12px;
 }
 .product_details_partOne, .product_details_partTwo{
     border-block-end: 1px solid #E0E2E6;
@@ -2463,7 +2464,7 @@ select.form-control:not([size]):not([multiple]){
 .subscribe_divs{
     margin-block-start: 35px;
     gap: 28px;
-    margin-block-end: 97px;
+    /* margin-block-end: 97px; */
 }
 .subscribe_divs div{
     border-radius: 13px;
@@ -2480,6 +2481,10 @@ select.form-control:not([size]):not([multiple]){
     padding-inline: 34px;
     font-weight: 500;
     width: fit-content;
+}
+.subscribe_divs > * {
+    width: 100%;
+    text-align: center;
 }
 .subscribe_btns a{
     padding-block: 16px;
@@ -2539,21 +2544,21 @@ select.form-control:not([size]):not([multiple]){
     letter-spacing: 1px;
     margin-block-start: 4px;
 }
-.application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
+/* .application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
     margin-block-start: 0;
-}
-.offer_subscribe .form-row{
+} */
+/* .offer_subscribe .form-row{
     margin-block-start: 19px;
-}
+} */
 .offer_subscribe .deal_step_two_img.main .vector-box{
     margin-block-end: 37px;
 }
 .offer_subscribe .deal_step_one .subscribe_divs{
     margin-block-start: 8px;
 }
-.application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
+/* .application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
     margin-block-start: 91px;
-}
+} */
 .offer_subscribe.application_deal_wrapper .deal_step_three_text .form-check:not(:has( :checked)) label{
     color: #D0D5DD;
 }
@@ -2561,12 +2566,12 @@ select.form-control:not([size]):not([multiple]){
     border-color: #D0D5DD;
 }
 .offer_subscribe.application_deal_wrapper .subscribe_divs{
-    margin-block-end: 34px;
+    /* margin-block-end: 34px; */
     margin-block-start: 12px;
 } 
-.application_deal_wrapper.offer_subscribe:has( .deal_step_three.active) .hero-btns{
+/* .application_deal_wrapper.offer_subscribe:has( .deal_step_three.active) .hero-btns{
     margin-block-start: 181px;
-}
+} */
 /* .application_deal_wrapper.offer_subscribe .deal-step:not(.payment_step_three, .payment_step_four) .row > div:not(.commision-note) .form-check.special{
     margin-block-start: 129px;
 } */
@@ -2581,9 +2586,9 @@ select.form-control:not([size]):not([multiple]){
 .deal-wrapper.offer_subscribe:has( .deal_step_four.active) .default-next-btn{
     display: block;
 }
-.offer_subscribe .deal-step.deal_step_four.payment_step_four .hero-btns{
+/* .offer_subscribe .deal-step.deal_step_four.payment_step_four .hero-btns{
     margin-block-start: 154px;
-}
+} */
 .alt-yellow-btn{
     margin: auto;
 }
@@ -2596,9 +2601,9 @@ select.form-control:not([size]):not([multiple]){
 .first_step_four .vector-box{
     margin-block-end: 29px;
 }
-.offer_subscribe .deal-step.deal_step_four.payment_step_four.second_step_four .hero-btns{
+/* .offer_subscribe .deal-step.deal_step_four.payment_step_four.second_step_four .hero-btns{
     margin-block-start: 20px;
-}
+} */
 .offer_subscribe .deal-step.deal_step_four.payment_step_four.second_step_four .form-check-step{
     margin-block-start: 42px;
     margin-block-end: 0;
@@ -4703,6 +4708,7 @@ a:hover{
     }
     .app_successfully .app-deal-success{
         max-width: 320px;
+        margin-block-start: 0;
     }
     /* .reset_slide .sitem-price{
         margin-block-start: -5px;
@@ -5105,7 +5111,7 @@ a:hover{
         text-align: center;
         border-radius: 7px;
     }
-    .application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns, .offer_subscribe .deal-step.deal_step_four.payment_step_four .hero-btns{
+    .application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
         margin-block-start: 20px;
     }
     .stepper_list{
@@ -5217,11 +5223,11 @@ a:hover{
         align-items: start !important;
         gap: 13px;
         margin-block-start: 23px;
-        margin-block-end: 60px;
+        margin-block-end: 40px;
     }
-    .subscribe_divs div{
+    /* .subscribe_divs div{
         width: unset!important;
-    }
+    } */
     .subscribe_btns .cancel-btn{
         margin-inline-start: 0;
     }
@@ -5229,9 +5235,9 @@ a:hover{
         justify-content: space-between;
     } */
     .deal-step .subscribe_divs div{
-        width: 100% !important;
+        /* width: 100% !important; */
         padding-inline: unset;
-        text-align: center;
+        /* text-align: center; */
     }
     .deal-step .subscribe_divs .alt-yellow-btn{
        margin: unset;
@@ -5333,8 +5339,18 @@ a:hover{
         margin-block-start:24px;
     }
     .subscribe_page{
-        padding-block: 0;
+        padding-block-start: 0;
+        padding-block-end: 40px;
     }
+    .app_successfully {
+        padding-block-end: 50px;
+    }
+    .final_step_success .success_btns{
+        margin-block-start: 60px;
+    }
+    /* .app_successfully .prev_page{
+        margin-block-end: 0;
+    } */
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
