@@ -4172,9 +4172,6 @@ a:hover{
     .products .viewall{
         margin-block-start: 32px;
     }
-    h1{
-        font-weight: 500;
-    }
     .container-fluid.support_cont .prev_page{
         margin-block-start: 28px;
         display: block;
@@ -4649,7 +4646,8 @@ a:hover{
     }
     h1{
         line-height: unset;
-        font-size: 34px;
+        font-size: 30px;
+        font-weight: 500;
     }
     .companyLogo{
         width: 100%;
