@@ -2514,6 +2514,14 @@ select.form-control:not([size]):not([multiple]){
 }
 .subscribe_page h4{
     color: #3F4D55;
+    max-width: 800px;
+    text-align: center;
+}
+.subscribe_page .subscribe_divs > * {
+    margin-block-end: 54px;
+    width: unset;
+    padding-inline: 32px;
+
 }
 .subscribe_progress{
     gap: 8px;
@@ -4641,6 +4649,7 @@ a:hover{
     }
     h1{
         line-height: unset;
+        font-size: 34px;
     }
     .companyLogo{
         width: 100%;
@@ -5354,6 +5363,9 @@ a:hover{
     /* .app_successfully .prev_page{
         margin-block-end: 0;
     } */
+    .subscribe_page .subscribe_divs > * {
+        padding-inline: 20px;
+    }
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
