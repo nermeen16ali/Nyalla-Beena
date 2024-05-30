@@ -5362,7 +5362,7 @@ a:hover{
         margin-block-end: 0;
     } */
     .subscribe_page .subscribe_divs > * {
-        padding-inline: 20px;
+        padding-inline: 12px;
     }
 }
 @media (max-width:400px) {
