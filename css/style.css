@@ -1448,9 +1448,9 @@ footer ul li::marker{
     /* padding-block-start: 16px; */
     padding-block-end: 16px;
 }
-.deal-wrapper .hero-btns{
+/* .deal-wrapper .hero-btns{
     margin-block-start: 56px;
-}
+} */
 .deal-wrapper .steps-progress{
     padding-block-end: 39px;
 }
@@ -2469,7 +2469,7 @@ select.form-control:not([size]):not([multiple]){
 .subscribe_divs div{
     border-radius: 13px;
     padding-block: 20px;
-    padding-inline: 34px;
+    /* padding-inline: 34px; */
     font-weight: 500;
 }
 .alt-yellow-btn{
@@ -3675,9 +3675,9 @@ select.form-control{
 .sidebar_link:hover{
     color: var(--text-color);
 }
-.finl_btns.hero-btns{
+/* .finl_btns.hero-btns{
     margin-block-start: 280px!important;
-}
+} */
 /* .company_for_user .slide-pic .sl_img_co, .offer_lists .slide-pic .of_li_img{
     z-index: 999;
     position: relative;
@@ -3778,6 +3778,9 @@ a:hover{
     transform: translateY(-50%);
     inset-inline-end: 14px;
     cursor: pointer;
+}
+.subscribe_indicators{
+    margin-block-end: 20px;
 }
 @media (min-width:1023px) {
     footer .footer-links > div{
@@ -5125,9 +5128,9 @@ a:hover{
         display: flex;
         text-align: center;
     }
-    .finl_btns.hero-btns {
+    /* .finl_btns.hero-btns {
         margin-block-start: 40px !important;
-    }
+    } */
     .final_step_success.final_step_failure .success_btns .alt-btn{
         padding-bottom: 9px;
     }
@@ -5351,9 +5354,6 @@ a:hover{
     /* .app_successfully .prev_page{
         margin-block-end: 0;
     } */
-    .subscribe_indicators{
-        margin-block-end: 20px;
-    }
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
