@@ -1223,14 +1223,14 @@ footer ul li::marker{
     margin-block-end: 29px;
     color: var(--writing-color);
 }
-.ourstory-text .hero-btns{
+/* .ourstory-text .hero-btns{
     margin-block-start: 160px;
-}
+} */
 .logos img{
     max-width: 358px;
 }
 .our-mission{
-    padding-block-end: 233px;
+    padding-block-end: 156px;
 }
 .our-mission h1, .our-mission h2, .our-mission h5{
     color: var(--writing-color);
@@ -1256,13 +1256,14 @@ footer ul li::marker{
 .mission-line h5{
     color: var(--text-color);
     margin-block-end: 0;
+    font-size: 18px;
 }
 .mission-line img{
     max-width: 32px;
 }
-.our-mission .hero-btns{
+/* .our-mission .hero-btns{
     margin-block-start: 88px;
-}
+} */
 .our-mission-area{
     background-color: var(--main-color);
     background-image: url(../images/logobg.png);
@@ -1270,6 +1271,9 @@ footer ul li::marker{
     background-repeat: repeat-y;
     background-size: 50%;
     background-position-x: 12px;
+}
+.our-mission-area img{
+    padding-block-start: 40px;
 }
 .our-vision{
     padding-block-end: 233px;
@@ -5037,9 +5041,9 @@ a:hover{
     h4.mColored{
         margin-block-end: 28px;
     }
-    .ourstory-text .hero-btns{
+    /* .ourstory-text .hero-btns{
         margin-block-start: 0;
-    }
+    } */
     .ourstory-text p:first-of-type{
         margin-block-end: 10px;
     }

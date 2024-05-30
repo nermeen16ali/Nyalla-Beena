@@ -10,7 +10,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -27,7 +28,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <button class="close_mobile_menu d-lg-none bg-transparent border-0 ">
-              <img src="images/close.png" alt="">
+              <span><i class="fa-solid fa-xmark"></i></span>
             </button>
             <ul class="navbar-nav">
               <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
@@ -62,7 +63,7 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html"
                   >
-                  <img src="images/mobileHome.png" class="home_mobile d-lg-none " alt="">
+                  <span class="d-lg-none"><i class="fa-solid fa-house"></i></span>
                   الرئيسية
                 </a
                 >
@@ -312,7 +313,7 @@
     </div>
     <div class="our-story">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row inner_ratio_container">
           <div class="col-12 col-lg-5 ">
             <h4 class="mColored d-lg-none ">قصتنا في يلا بينا</h4>
             <div class="logos text-center ">
@@ -322,12 +323,12 @@
               <img src="images/front-view-delivery-man-holding-packages 1 (1).png" class="img-fluid position-absolute " alt="">
             </div>
           </div>
-          <div class="col-12 col-lg-7 ourstory-text">
+          <div class="col-12 col-lg-7 ourstory-text position-relative">
             <h4 class="mColored d-none d-lg-block ">قصتنا في يلا بينا</h4>
             <h2>نص وهمي يكون في هذه المساحة</h2>
             <p class="big-text">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى</p>
             <p class="big-text d-none d-lg-block ">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى</p>
-            <div class="hero-btns d-flex align-items-center d-none d-lg-flex  ">
+            <div class="hero-btns d-flex align-items-center d-none d-lg-flex ratio_btn">
               <a href="offer_subscribe.html" class="alt-btn">إنشاء/طلب عرض</a>
               <a href="seller_account.html" class="main-btn">تسجيل حساب</a>
             </div>
@@ -338,8 +339,8 @@
     <div class="our-mission">
       <h1 class="text-center d-none d-lg-block ">مهمتنا في يلا بينا</h1>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-lg-6 order-2 order-lg-1 ">
+        <div class="row inner_ratio_container">
+          <div class="col-12 col-lg-6 order-2 order-lg-1 position-relative">
             <h1 class="text-center d-lg-none">مهمتنا في يلا بينا</h1>
             <h2>نص وهمي يكون في هذه المساحة</h2>
             <p class="big-text">
@@ -362,7 +363,7 @@
               <div><img src="images/blessing.png" class="img-fluid " alt=""></div>
               <h5>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة</h5>
             </div>
-            <div class="hero-btns d-flex align-items-center d-none d-lg-flex  ">
+            <div class="hero-btns align-items-center d-none d-lg-flex ratio_btn">
               <a href="createdeal.html" class="alt-btn">إنشاء/طلب عرض</a>
               <a href="create_account.html" class="main-btn">تسجيل حساب</a>
             </div>
@@ -486,7 +487,7 @@
         </div>
       </div>
     </footer>
-    <a href="#" class="back-to-top"><img src="images/arrowhead-up.png" alt=""></a>
+    <a href="#" class="back-to-top"><span><i class="fa-solid fa-arrow-up"></i></span></a>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
