@@ -1811,7 +1811,7 @@ form .form-select{
     display: block;
     padding-block-end: 32px;
 }
-.sidebar_link svg{
+.sidebar_link span{
     margin-inline-end: 12px;
 }
 .sidebar_link.active{
@@ -2139,6 +2139,9 @@ form .form-select{
     margin-block-start: 60px;
     margin-block-end: 16px;
 }
+.getting_support_box{
+    padding-block: 32px;
+}
 .getting_support_box.aqua{
     background-position-x: right;
 }
@@ -2320,8 +2323,8 @@ form .form-select{
     margin-block-start: 38px;
 }
 .getting_support_box{
-    height: 200px;
-    padding-inline: 95px;
+    height: fit-content;
+    padding-inline: 34px;
 }
 .getting_support_box.main img{
     width: 188px;
@@ -2331,11 +2334,11 @@ form .form-select{
 }
 .getting_support_box h4{
     font-weight: normal;
-    margin-block-end: 18px;
+    /* margin-block-end: 18px; */
 }
-.getting_support_box h3{
+/* .getting_support_box h3{
     padding-inline-start: 18px;
-}
+} */
 .getting_support_box.aqua{
     background-color: var(--main-blue-color);
 }
@@ -2356,9 +2359,9 @@ form .form-select{
 .container-fluid.contact_us{
     overflow: hidden;
 }
-.getting_support_box.main img{
+/* .getting_support_box.main img{
     inset-inline-end: 120px;
-}
+} */
 .companyLogo{
     width: 190px;
     margin-block-start: 12px;
@@ -3680,7 +3683,7 @@ header nav:last-child .nav-div .dropdown-toggle, header nav:last-child .nav-div 
 select.form-control{
     padding-block: 0;
 }
-.sidebar_link:hover{
+.sidebar_link:not(.active):hover{
     color: var(--text-color);
 }
 /* .finl_btns.hero-btns{
@@ -3790,6 +3793,23 @@ a:hover{
 .subscribe_indicators{
     margin-block-end: 20px;
 }
+.con_btn{
+    font-size: 13.76px;
+    padding-block: 6px;
+    padding-inline: 16px;
+    background-color: var(--white-color);
+    border-radius: 5.51px;
+    display: block;
+    color: var(--main-color);
+    width: fit-content;
+    margin-block-start: 20px;
+}
+.con_btn:hover{
+    color: var(--main-color);
+}
+/* .con_btn{
+    margin-inline-start: 18px;
+} */
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
@@ -4112,14 +4132,9 @@ a:hover{
     }
     .seller_account .seller_account_box, .seller_account .getting_support_box{
         background-image: unset;
-        margin-block-start: 25px;
     }
     .getting_support_box{
-        margin-block-start: 18px;
-        height: unset;
         background-size: 280px;
-        height: 124px;
-        padding-block: 35px;
     }
     .seller_account_box h1{
         font-size: 28px;
@@ -4212,18 +4227,19 @@ a:hover{
     }
     .getting_support_box{
         padding-inline: unset;
+        padding-block: 16px;
     }
     .getting_support_box h4{
         font-size: 16px;
         margin-block-end: 0;
-        padding-inline-start: 18px;
+        /* padding-inline-start: 18px; */
     }
     .getting_support_box h3{
         font-size: 24px;
     }
-    .getting_support_box.main img{
+    /* .getting_support_box.main img{
         inset-inline-end: 60px;
-    }
+    } */
     .getting_support_box.main{
         margin-block-end: 90px;
     }
@@ -4735,19 +4751,6 @@ a:hover{
     .getting_support_box{
         margin-block-start: 50px;
     } 
-    .con_btn{
-        font-size: 7.84px;
-        padding-block: 4px;
-        padding-inline: 16px;
-        background-color: var(--white-color);
-        border-radius: 3.14px;
-        color: var(--main-color);
-        width: fit-content;
-        margin-block-start: 10px;
-    }
-    .getting_support_box.main .con_btn{
-        margin-inline-start: 18px;
-    }
     .container-fluid.contact_us{
         padding-inline: 0;
     }
@@ -5363,6 +5366,15 @@ a:hover{
     } */
     .subscribe_page .subscribe_divs > * {
         padding-inline: 12px;
+    }
+    .con_btn{
+        font-size: 10px;
+        padding-block: 3px;
+        margin-block-start: 15px;
+        border-radius: 3px;
+    }
+    .container-fluid.overflow-hidden{
+        padding-inline: 0;
     }
 }
 @media (max-width:400px) {

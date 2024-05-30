@@ -53,6 +53,12 @@ form .form-select{
     margin-inline-start: unset;
     margin-inline-end: 8px;
 }
+.getting_support_box.main{
+    background-position-x: right;
+}
+.getting_support_box.aqua{
+    background-position-x: left;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;
@@ -63,6 +69,9 @@ form .form-select{
 @media (max-width:767px) {
     .hero-btns a, .hero-btns button{
         padding-inline: unset;
+    }
+    .getting_support_box.aqua{
+        padding-inline-start: 0;
     }
     #myForm > div > div.deal-step > ul > li:nth-child(3), .deal-wrapper .steps-progress > li:nth-child(3){
         display: flex;
