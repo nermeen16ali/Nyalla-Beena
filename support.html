@@ -10,24 +10,25 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light top-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
-            >
-            <img src="images/en-logo.png" class="img-fluid d-none d-lg-block" alt=""
+              >
+              <img src="images/en-logo.png" class="img-fluid d-none d-lg-block " alt=""
             />
-           <img src="images/res_logo.png" class="img-fluid d-lg-none " alt="">
+            <img src="images/res_logo.png" class="img-fluid d-lg-none " alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <button class="close_mobile_menu d-lg-none bg-transparent border-0 ">
-              <img src="images/close.png" alt="">
+              <span><i class="fa-solid fa-xmark"></i></span>
             </button>
             <ul class="navbar-nav">
               <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
@@ -41,7 +42,14 @@
                   </div>
                 </div>
                 <div class="nav-item dropdown d-lg-none ">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                   <img src="images/langg.png" class="langg" alt="">
                     English
                   </a>
@@ -51,12 +59,14 @@
                   </ul>
                 </div>
               </div>
-              
+              </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">
-                  <img src="images/mobileHome.png" class="home_mobile d-lg-none " alt="">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >
+                  <span class="d-lg-none"><i class="fa-solid fa-house"></i></span>
                   الرئيسية
-                </a>
+                </a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="story.html">
@@ -82,13 +92,20 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="contact_us.html">
+                <a class="nav-link" href="contact_us.html">
                   <img src="images/contact-mail.png" class="home_contact d-lg-none " alt="">
                   تواصل معنا
                 </a>
               </li>
             </ul>
-            <div class="d-flex nav-div">
+            <div class="d-flex nav-div justify-content-between">
+              <a href="notification.html" class="notcon d-none d-lg-block">
+                <img src="images/nav-notification.png" alt="">
+              </a>
+              <a href="myAccount.html" class="profile_owner d-none d-lg-flex">
+                <img src="images/header_vector.png" class="img-fluid " alt="">
+                <span>محمد مصطفي</span>
+              </a>
               <a href="#" class="log_out d-flex d-lg-none align-items-center ">
                 <img src="images/Sign-out.png" class="img-fluid " alt="">
                 <span>تســجــيل الخروج</span>
@@ -97,10 +114,6 @@
                 <img src="images/deleteAccount.png" class="img-fluid " alt="">
                 <span>حذف الحساب</span>
               </a>
-              <a href="login.html" class="alt-btn d-none d-lg-block">
-                تسجيل الدخول
-              </a>
-              <a href="create_account.html" class="main-btn d-none d-lg-block">إنشاء حساب</a>
             </div>
           </div>
           <div class="notif-icon d-lg-none " role="button">
@@ -108,7 +121,7 @@
           </div>
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg navbar-light second-nav d-none d-lg-block">
+      <nav class="navbar navbar-expand-lg navbar-light second-nav d-none d-lg-block ">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -123,6 +136,34 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
+              <div class="sidebar_header d-flex align-items-center d-lg-none justify-content-between ">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="img-container">
+                    <img src="images/sidebar_owner.png" class="img-fluid " alt="">
+                  </div>
+                  <div class="sidebar_header_text">
+                    <span>مرحبا بـك</span>
+                    <h6>محمـد مصـطفـي عـلـي</h6>
+                  </div>
+                </div>
+                <div class="nav-item dropdown d-lg-none ">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  <img src="images/langg.png" class="langg" alt="">
+                    English
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">انجليزي</a></li>
+                    <li><a class="dropdown-item" href="#">عربي</a></li>
+                  </ul>
+                </div>
+              </div>
               <li class="nav-item searcharea">
                 <input
                   type="text"
@@ -239,12 +280,12 @@
         </div>
       </nav>
     </header>
-    <div class="container-fluid account_content myAccount_content">
-      <a href="settings.html" class="prev_page d-lg-none"><img src="images/back.png" alt=""></a>
+    <div class="container-fluid myAccount_content ration_container">
+      <a href="settings.html" class="prev_page d-lg-none"><span><i class="fa-solid fa-arrow-right"></i></span></a>
         <div class="deal-step deal_step_two support">
-            <div class="row">
-              <div class="col-12 col-lg-6">
-                <div class="d-flex justify-content-between ">
+            <div class="row inner_ratio_container">
+              <div class="col-12 col-lg-6 position-relative">
+                <div class="d-flex justify-content-between mb-16">
                     <p class="cotext">قائمة حسابك الجانبية</p>
                     <h6>احصل علي الدعم</h6>
                 </div>
@@ -252,7 +293,7 @@
                     <div class="col-12 mb-24">
                         <span class="form-label">الاسم بالكامل</span>
                         <div class="position-relative ">
-                            <input type="text" class="form-control " value="مـحمد مصطفي علي">
+                            <input type="text" class="form-control " placeholder="مـحمد مصطفي علي">
                             <div class="svg-container position-absolute ">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M7.885 7.70726C8.94384 7.70726 9.86058 7.3275 10.6099 6.57823C11.3589 5.82909 11.7388 4.91247 11.7388 3.85351C11.7388 2.79492 11.359 1.87817 10.6097 1.12878C9.86046 0.37976 8.94372 0 7.885 0C6.82604 0 5.90942 0.37976 5.16028 1.1289C4.41113 1.87805 4.03125 2.79479 4.03125 3.85351C4.03125 4.91247 4.41113 5.82921 5.16028 6.57836C5.90966 7.32738 6.82641 7.70726 7.885 7.70726ZM5.82336 1.79187C6.39819 1.21704 7.0725 0.93762 7.885 0.93762C8.69738 0.93762 9.37182 1.21704 9.94677 1.79187C10.5216 2.36682 10.8011 3.04125 10.8011 3.85351C10.8011 4.66601 10.5216 5.34032 9.94677 5.91527C9.37182 6.49022 8.69738 6.76964 7.885 6.76964C7.07275 6.76964 6.39843 6.4901 5.82336 5.91527C5.24841 5.34044 4.96887 4.66601 4.96887 3.85351C4.96887 3.04125 5.24841 2.36682 5.82336 1.79187Z" fill="#5D686F"></path>
@@ -294,7 +335,7 @@
                         <span class="form-label">سبب التواصل</span>
                         <textarea class="form-control" placeholder="نبذة عن سبب التواصل او طلب الدعم"></textarea>
                     </div>
-                    <div class="d-flex align-items-center support_btns">
+                    <div class="d-flex align-items-center support_btns ratio_btn">
                         <button type="submit" class="main-btn">إرسال</button>
                         <a href="https://api.whatsapp.com/send?phone=01111104846" class="whats_btn"><img src="images/whatsIcon.png" class="img-fluid whatIcon" alt=""><span>راسلنا علي الواتساب</span></a>
                     </div>
@@ -331,15 +372,12 @@
         </ul>
     </div>
     <div class="mobile_footer d-md-none ">
-      <div class="mobile_nav position-relative">
-        <svg width="100%" height="98" viewBox="0 0 430 98" fill="none" xmlns="http://www.w3.org/2000/svg" class="position-absolute z-1 ">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M370.966 17.0943C376.158 8.51344 383.97 0 394 0C413.882 0 430 16.1177 430 36V83C430 91.2843 423.284 98 415 98H15C6.71573 98 0 91.2843 0 83V36C0 16.1178 16.1177 0 36 0H280.733C294.809 0 305.806 12.5904 315.411 22.879C321.799 29.7219 330.9 34 341 34C353.708 34 364.834 27.2272 370.966 17.0943Z" fill="white"></path>
-        </svg>
+      <div class="mobile_nav">
         <ul class="d-flex align-items-center justify-content-between text-center position-relative z-3 ">
-          <li><a href="index.html" class="active"><span><img src="images/home-2.png" alt=""></span><p>بيت</p></a></li>
-          <li><a href="search.html"><span><img src="images/search-normal.png" alt=""></span><p>بحث</p></a></li>
-          <li><a href="prefered_offers.html" class="hearted"><span><img src="images/navbar (2).png" alt=""></span><p>مفضل</p></a></li>
-          <li><a href="settings.html"><span><img src="images/user.png" alt=""></span><p>حساب تعريفي</p></a></li>
+          <li><a href="index.html"><span><i class="fa-solid fa-house"></i></span><p>بيت</p></a></li>
+          <li><a href="search.html"><span><i class="fa-solid fa-magnifying-glass"></i></span><p>بحث</p></a></li>
+          <li><a href="prefered_offers.html"><span><i class="fa-regular fa-heart"></i></span><p>مفضل</p></a></li>
+          <li><a href="settings.html"><span><i class="fa-regular fa-user"></i></span><p>حساب تعريفي</p></a></li>
         </ul>
       </div>
     </div>

@@ -49,6 +49,10 @@ form .form-select{
 .no_dl .steps-progress .step-progress:not(:last-child)::before{
     inset-inline-start: 62px;
 }
+.support_footer .mailIcon{
+    margin-inline-start: unset;
+    margin-inline-end: 8px;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;

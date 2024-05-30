@@ -1903,9 +1903,9 @@ form .form-select{
     margin-block-end: 10px;
     margin-block-start: 10px;
 }
-.myAccount_content form{
+/* .myAccount_content form{
     padding-block-start: 51px;
-}
+} */
 /* .myAccount_content form > div{
     margin-block-end: 32px;
 } */
@@ -2242,9 +2242,9 @@ form .form-select{
 .heading{
     margin-block-end: 14px;
 }
-.support form{
+/* .support form{
     padding-block-start: 32px;
-}
+} */
 .support .form-label{
     color: var(--text-color);
 }
@@ -2780,9 +2780,9 @@ div:not(.no_dl) .deal-successfully.success{
 .create_form .humous-circle{
     inset-block-start: 36%;
 }
-.create_form .myAccount_content form{
+/* .create_form .myAccount_content form{
     padding-block-start: 0;
-}
+} */
 .inner_circle{
     background-color: var(--white-color);
     width: 77px;
