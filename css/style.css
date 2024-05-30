@@ -2320,7 +2320,6 @@ form .form-select{
 .specific_product .main-btn{
     width: fit-content;
     padding-inline: 111px;
-    margin-block-start: 38px;
 }
 .getting_support_box{
     height: fit-content;
@@ -5311,7 +5310,6 @@ a:hover{
     }
     .specific_product .main-btn{
         width: 100%;
-        margin-block-start: 0;
     }
     .test_text p.txt_par_test{
         margin-block-end: 12px;
