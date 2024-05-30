@@ -5351,6 +5351,9 @@ a:hover{
     /* .app_successfully .prev_page{
         margin-block-end: 0;
     } */
+    .subscribe_indicators{
+        margin-block-end: 20px;
+    }
 }
 @media (max-width:400px) {
     /* .mobile_nav a.active span{
