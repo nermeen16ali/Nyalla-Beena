@@ -1796,6 +1796,11 @@ form .form-select{
     border-bottom: 1px solid rgba(93, 104, 111, 0.3);
     gap: 27px;
 }
+.sidebar_header .img-container img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
 .sidebar_header_text span{
     font-size: 14px;
     font-weight: 400;
@@ -2002,7 +2007,7 @@ form .form-select{
     background-size: 10px;
 } */
 .transIcon{
-    width: 58px;
+    min-width: 58px;
     height: 50px;
     border-radius: 8px;
     background-color: var(--main-yellow-color);
@@ -2972,6 +2977,9 @@ div:not(.no_dl) .deal-successfully.success{
 }
 .profile_owner img{
     margin-inline-end: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }
 .profile_owner:hover{
     color: var(--main-color);
@@ -5383,6 +5391,9 @@ a:hover{
     }
     .specific_product h6{
         margin-block-end: 20px;
+    }
+    .wallet .myAccount_content h6{
+        margin-block-start: 6px;
     }
 }
 @media (max-width:400px) {
