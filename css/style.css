@@ -2063,7 +2063,7 @@ form .form-select{
     font-weight: normal;
 }
 .wallet .myAccount_content h6{
-    margin-block-end: 15px;
+    margin-block-start: 15px;
 }
 .wallet .main-btn{
     display: block;
@@ -3736,9 +3736,9 @@ select.form-control{
     height: 137px;
     text-align: center;
 }
-.account_content.wallet .main-btn{
+/* .account_content.wallet .main-btn{
     margin-block-start: 136px;
-}
+} */
 .sl_img_co img{
     margin-inline: auto;
 }
@@ -3884,9 +3884,9 @@ a:hover{
     .transaction p, .transDetails a{
         font-size: 12px;
     }
-    .account_content.wallet .main-btn{
+    /* .wallet .main-btn{
         margin-block-start: 109px;
-    }
+    } */
     .humous-circle {
         width: 320px;
         height: 320px;
@@ -4197,8 +4197,8 @@ a:hover{
         margin-block-start: 28px;
         display: block;
     }
-    .account_content.wallet .main-btn{
-        margin-block-start: 40px;
+    .wallet .main-btn{
+        width: 100%;
     }
     .transaction p{
         margin-block-start: 12px;
