@@ -53,7 +53,7 @@ form .form-select{
     margin-inline-start: unset;
     margin-inline-end: 8px;
 }
-.getting_support_box.main, .wallet-balance{
+.getting_support_box.main, .wallet-balance, .seller_account_box{
     background-position-x: right;
 }
 .getting_support_box.aqua{
