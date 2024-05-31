@@ -3082,7 +3082,7 @@ div:not(.no_dl) .deal-successfully.success{
     width: 18px;
     margin-block-end: 16px;
 } */
-.prev_page{
+.prev_page, .prev_page:focus{
     color: #1F5460;
 }
 .search_page .account_sidebar{
