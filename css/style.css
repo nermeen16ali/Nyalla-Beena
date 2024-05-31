@@ -3950,9 +3950,9 @@ a:hover{
     .slick-slider{
         padding-inline: 50px;
     }
-    .thumbnails_container + .row > div{
+    /* .thumbnails_container + .row > div{
         padding: 0;
-    }
+    } */
     .copy-right h5, .copy-right a{
         font-size: 12px;
     }
@@ -4232,9 +4232,9 @@ a:hover{
     .sl_img_co{
         max-width: 179px;
     }
-    .brand{
+    /* .brand{
         font-size: 12.23px;
-    }
+    } */
     /* .reset_slide .brand{
         font-size:6.23px;
     } */
@@ -4540,9 +4540,9 @@ a:hover{
         padding-block: 16px;
         height: 265px;
     }
-    .deal_slide_one .brand, .deal_slide_one .inner{
+    /* .deal_slide_one .brand, .deal_slide_one .inner{
         font-size: 12px;
-    }
+    } */
     .dl_pg{
         padding-block-end: 0;
     }
