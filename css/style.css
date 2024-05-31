@@ -777,9 +777,9 @@ header:not(.register_header){
     /* margin-block-start: -60px; */
     /* margin-block-end: 16px; */
 }
-.dl_pg .slide-one .on svg use {
+/* .dl_pg .slide-one .on svg use {
     stroke: #f43965;
-}
+} */
 .brand{
     color: var(--text-color);
     font-size: 14px;
@@ -3518,6 +3518,7 @@ div:not(.no_dl) .deal-successfully.success{
     padding-block: 18px;
     margin-block-start: unset;
     font-size: 18px;
+    /* min-width: 100%; */
 }
 .deal_slide_one h4, .mb_title{
     color: var(--writing-color);
@@ -3533,8 +3534,10 @@ div:not(.no_dl) .deal-successfully.success{
     max-width: 610px;
     line-height: 20.58px;
 }
-.deal_slide_one .brand + span img{
+.brand_deal{
     margin-block-end: 4px;
+    max-width: 90px;
+    /* margin-inline-end: 2px; */
 }
 .deal_slide_one ul li{
     font-size: 12px;
@@ -3560,7 +3563,7 @@ div:not(.no_dl) .deal-successfully.success{
 }
 .dl_pg .slide_btn{
     gap: 18px;
-    margin-block-start: 70px;
+    /* margin-block-start: 70px; */
 }
 .dl_pg .slide_btn .main-blue-btn img{
     width: 18px;
@@ -3643,6 +3646,11 @@ div:not(.no_dl) .deal-successfully.success{
     align-items: center;
     border-radius: 8px;
     margin-block-start: 24px;
+    height: 112px;
+}
+.dl_sr h6{
+    text-align: center;
+    padding-inline: 8px;
 }
 .dl_pg{
     padding-block-start: 78px;
@@ -3846,9 +3854,9 @@ a:hover{
     .mission-pic{
         position: absolute;
     }
-    .special-slick-slider .sitem-content h4{
+    /* .special-slick-slider .sitem-content h4{
         margin-block-start: 120px;
-    }
+    } */
     .testi_btm{
         position: absolute;
         inset-block-end: 30px;
@@ -4485,10 +4493,10 @@ a:hover{
         padding-inline: 11.75px;
         padding-block: 9px;
     }
-    .dl_pg .ptimenum{
+    /* .dl_pg .ptimenum{
         font-size: 17px;
         padding-inline: 28px;
-    }
+    } */
     .dl_slider h2{
         font-size: 18px;
         margin-block-end: 20px;
@@ -4536,7 +4544,6 @@ a:hover{
         font-size: 12px;
     }
     .dl_pg{
-        /* padding-block-start: 32px; */
         padding-block-end: 0;
     }
     .thumbnails_container{
@@ -4548,9 +4555,9 @@ a:hover{
     .sub_hd_mb{
         margin-block-end: 21px;
     }
-    .dl_pg .brand.mb_br{
+    /* .dl_pg .brand.mb_br{
         font-size: 13px !important;
-    }
+    } */
     .img_thumb{
         height: 70px;
         width: 100%;
@@ -5292,9 +5299,9 @@ a:hover{
     .ration_container{
         padding-block-start: 0;
     }
-    .dl_pg .slide_btn{
+    /* .dl_pg .slide_btn{
         margin-block-start: 32px;
-    }
+    } */
     .offer_lists .slide-pic .of_li_img{
         max-width: 97px;
         max-height: 137px;
@@ -5419,9 +5426,9 @@ a:hover{
     .depart_btns button:not(:last-child){
         margin-inline-end: 10px;
     }
-    .dl_pg .ptimenum, .dl_pg .ptimenum + .smbtext{
+    /* .dl_pg .ptimenum, .dl_pg .ptimenum + .smbtext{
         font-size: 14px;
-    }
+    } */
     .sitem-price{
         font-size: 18px;
     }
