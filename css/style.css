@@ -1836,7 +1836,7 @@ form .form-select{
 .setting_notification{
     width: 18px;
 }
-.setting_page .sidebar_item img{
+.setting_page .sidebar_item img, .setting_page .sidebar_item svg{
     margin-inline-end: 12px;
 }
 .sidebar_item span i{
