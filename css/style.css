@@ -338,7 +338,7 @@ header:not(.register_header){
     font-weight: 400;
     color: var(--text-color)!important;
 }
-.nav-link img{
+.nav-link img, .nav-link span svg{
     margin-inline-end: 8px;
 }
 .main-btn, .sumbit-btn{
@@ -1229,7 +1229,7 @@ footer ul li::marker{
 .logos img{
     max-width: 358px;
 }
-.our-mission{
+.our-mission, .our-vision{
     padding-block-end: 156px;
 }
 .our-mission h1, .our-mission h2, .our-mission h5{
@@ -1275,9 +1275,9 @@ footer ul li::marker{
 .our-mission-area img{
     padding-block-start: 40px;
 }
-.our-vision{
+/* .our-vision{
     padding-block-end: 233px;
-}
+} */
 .vision-row{
     color: var(--white-color);
     background-color: var(--main-blue-color);
@@ -2332,6 +2332,9 @@ form .form-select{
 }
 .specific_product h6{
     margin-block-end: 45px;
+}
+.specific_product .step-two-man-pic{
+    margin-block-start: 56px;
 }
 .specific_product textarea{
     height: 191px;
@@ -4005,6 +4008,9 @@ a:hover{
     /* .myAccount_content .main-btn{
         margin-block-start: 210px;
     } */
+    .specific_product textarea{
+    height: 100px;
+}
 }
 @media (max-width:991px) {
     .container-fluid, .deal-successfully.success{
