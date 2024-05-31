@@ -1834,6 +1834,9 @@ form .form-select{
 .setting_page .sidebar_item img{
     margin-inline-end: 12px;
 }
+.sidebar_item span i{
+    font-size: 16px;
+}
 .sp_or{
     width: 15.75px;
 }
@@ -2223,7 +2226,7 @@ form .form-select{
     color: var(--text-color);
 }
 .notif_owner p{
-    padding-block-start: 10px;
+    padding-block-start: 4px;
 }
 .notif_item span{
     font-size: 10px;
@@ -2242,9 +2245,9 @@ form .form-select{
     inset-inline-end: 13px;
     width: fit-content;
 }
-.close_notif img{
-    width: 24px;
-    height: 24px;
+.close_notif span i{
+    font-size: 24px;
+    color: #515151;
 }
 .heading{
     margin-block-end: 14px;
@@ -4161,7 +4164,7 @@ a:hover{
     } 
     .close_notif{
         inset-block-start: 22px;
-        inset-inline-end: 8px;
+        inset-inline-end: 0;
     }
     /* .add_New_Address .btns{
         margin-block-start: 24px;
