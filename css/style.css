@@ -1966,6 +1966,7 @@ form .form-select{
     padding-block: 3px;
     padding-inline: 9px;
     border-radius: 3px;
+    margin-left: 4px;
 }
 .add_New_Address textarea.form-control, .support textarea.form-control{
     height: 135px;
@@ -2951,7 +2952,7 @@ div:not(.no_dl) .deal-successfully.success{
     background-color: #fff;
     position: fixed;
     bottom: 0;
-    z-index: 9999;
+    z-index: 999;
     width: 100%;
     border-top: 1px solid #9DB2CE;
 }
@@ -5414,6 +5415,10 @@ a:hover{
     }
     .wallet .myAccount_content h6{
         margin-block-start: 6px;
+    }
+    .newAddress_list .main-btn{
+        width: 100%;
+        display: block;
     }
 }
 @media (max-width:400px) {
