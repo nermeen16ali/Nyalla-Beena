@@ -32,6 +32,9 @@
 }
 .form-check.for_check{
     padding-left: unset;
+    .form-check-input{
+        margin-top: 0;
+    }
 }
 .steps-progress .step-progress:not(:last-child)::before{
     inset-inline-start: 42px;
@@ -86,5 +89,11 @@ form .form-select{
     }
     .no_dl .steps-progress .step-progress:not(:last-child)::before{
         inset-inline-start: 36px;
+    }
+    .form-check.for_check .form-check-input{
+        margin-top: unset;
+    }
+    .steps-progress .step-progress:not(:last-child)::before{
+        inset-inline-start: 32px;
     }
 }
