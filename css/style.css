@@ -4706,9 +4706,6 @@ a:hover{
     .upload-img span{
         text-align: center;
     }
-    .form-check{
-        display: flex;
-    }
     .app_successfully p, .no_dl .deal-successfully p{
         font-size: 16px;
     }
