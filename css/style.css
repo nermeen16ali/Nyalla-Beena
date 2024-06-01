@@ -1085,11 +1085,15 @@ footer ul li::marker{
     max-width: 900px;
     outline: none;
 }
-.video-popup .close-video img{
+.video-popup .close-video span{
     position: absolute;
     inset-block-start: 30px;
     inset-inline-end: 30px;
     cursor: pointer;
+}
+.video-popup .close-video span i{
+    font-size: 16px;
+    color: var(--white-color);
 }
 .story-about{
     background-color: var(--main-color);

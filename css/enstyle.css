@@ -62,6 +62,10 @@ form .form-select{
 .getting_support_box.aqua{
     background-position-x: left;
 }
+.video-popup{
+    inset-inline-start: unset;
+    inset-inline-end: 50%;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;
