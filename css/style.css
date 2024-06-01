@@ -4101,6 +4101,7 @@ a:hover{
     }
     .upload-img span{
         font-size: 10.21px;
+        padding-inline: 4px;
     }
     .upload-img{
         height: 82px;
@@ -4694,6 +4695,18 @@ a:hover{
     }
     .getting_support_box h3{
         font-size: 19px;
+    }
+    .deal-successfully h1{
+        font-size: 21px;
+    }
+    .upload-img span{
+        text-align: center;
+    }
+    .form-check{
+        display: flex;
+    }
+    .app_successfully p, .no_dl .deal-successfully p{
+        font-size: 16px;
     }
 }
 .dropdown {
