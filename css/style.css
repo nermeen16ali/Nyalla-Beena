@@ -2138,8 +2138,7 @@ form .form-select{
     margin-inline-end: 10px;
 }
 .support_btns .main-btn{
-    padding-block-start: 16px;
-    padding-block-end: 16px;
+    padding-block: 16px;
     padding-inline: 0;
     width: 100%!important;
 }
@@ -2826,7 +2825,9 @@ div:not(.no_dl) .deal-successfully.success{
     border-bottom: 1px solid #ECECEC;
 }
 .search_page .account_sidebar .dropdown-toggle.header::before{
-    content: url(../images/plustrue.png);
+    content: '\2b';
+    font-size: 24px;
+    color: var(--text-color);
     position: absolute;
     inset-inline-end: 0;
     inset-block-start: 50%;
@@ -3432,6 +3433,9 @@ a:hover{
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner{
     text-align: -webkit-auto;
 }
+.seller_account_box{
+    margin-block-start: 100px;
+}
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
@@ -3551,6 +3555,16 @@ a:hover{
     }
     .total-required span{
         font-size: 16px;
+    }
+    .whats_btn, .support_btns .main-btn{
+        font-size: 14px;
+        padding-block: 8px;
+    }
+    .searcharea input{
+        padding-inline-start: 12px;
+    }
+    .nav-link{
+        font-size: 12px;
     }
 }
 @media (max-width:991px) {
@@ -4071,6 +4085,9 @@ a:hover{
     .getting_support_box{
         margin-block-start: 50px;
     } 
+    .seller_account_box{
+        margin-block-start: 40px;
+    }
     .getting_support_box{
         border-radius: unset;
         padding-inline: 20px;
@@ -4426,9 +4443,9 @@ a:hover{
     }
     .subscribe_divs div{
         padding-block: 13px;
-        font-size: 12px;
+        font-size: 11px;
         width: 100%;
-        padding-inline: 15px;
+        padding-inline: 4px;
         text-align: center;
         border-radius: 7px;
     }
@@ -4528,9 +4545,6 @@ a:hover{
     }
     .subscribe_btns .cancel-btn{
         margin-inline-start: 0;
-    }
-    .deal-step .subscribe_divs div{
-        padding-inline: unset;
     }
     .deal-step .subscribe_divs .alt-yellow-btn{
        margin: unset;
@@ -4720,4 +4734,7 @@ a:hover{
     background-color: none;
     border: 1px solid #96A3AE ;
     padding-block-start: 20px;
+}
+.filter_item .form-check{
+    padding-left: 0;
 }
