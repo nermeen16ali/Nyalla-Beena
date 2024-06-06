@@ -1463,7 +1463,6 @@ form .form-select{
 }
 .deal_step_two_text ul{
     padding-inline-start: 20px;
-    margin-block-start: 17px;
 }
 .vector-box{
     border-radius: 24px;
@@ -4466,9 +4465,6 @@ a:hover{
     .application_deal_wrapper.offer_subscribe .deal_step_one .hero-btns{
         margin-block-start: 20px;
     }
-    /* .stepper_list{
-        padding-block-start: 25px;
-    } */
     .deal_step_two_text ul{
         padding-inline-start: 16px;
     }
