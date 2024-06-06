@@ -3466,8 +3466,14 @@ a:hover{
         padding-inline-end: 50px;
     }
     .searcharea{
-        width: 370px;
+        width: 320px;
     } 
+    .navbar{
+        padding-inline: 0;
+    }
+    .container-fluid{
+        padding-inline: 20px;
+    }
 }
 @media screen and (max-width:1024px){
     .transaction{
@@ -3569,6 +3575,9 @@ a:hover{
     }
     .nav-link{
         font-size: 12px;
+    }
+    .navbar-brand{
+        margin-inline-end: 8px;
     }
 }
 @media (max-width:991px) {
