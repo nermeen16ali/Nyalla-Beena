@@ -3465,6 +3465,9 @@ a:hover{
 .container-fluid.board_pg{
     padding-inline: 24px;;
 }
+.our-mission-area img{
+    margin-block-start: 40px;
+}
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
@@ -3606,6 +3609,12 @@ a:hover{
     }
     .navbar-brand{
         margin-inline-end: 8px;
+    }
+    .our-mission .ratio_btn, .our-story .ratio_btn{
+        position: relative;
+    }
+    .our-mission .hero-btns a, .hero-btns button{
+        padding-inline: 30px;;
     }
 }
 @media (max-width:991px) {
