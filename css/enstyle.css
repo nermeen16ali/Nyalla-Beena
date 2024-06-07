@@ -66,6 +66,9 @@ form .form-select{
     inset-inline-start: unset;
     inset-inline-end: 50%;
 }
+.vision-row{
+    background-position-x: right;
+}
 @media (max-width:991px) {
     .navbar-brand{
         inset-inline-start: unset;

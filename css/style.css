@@ -4418,13 +4418,21 @@ a:hover{
         margin-block-end: 33px;
     }
     .mission-pic{
-        position: relative;
+        position: absolute;
         max-width: 284px;
+        height: 316px;
     }
     .vision-row{
-        background-position-y: bottom;
+        /* background-position-y: bottom;
         background-size: 327px;
-        background-position-x: 20px;
+        background-position-x: 20px; */
+        background-image: unset;
+    }
+    .res_vi_img{
+        max-width: 345px;
+        height: 206px;
+        margin-block-start: 68px;
+        margin-block-end: 41px;
     }
     .vision-text h3{
         font-size: 24px;
@@ -4444,6 +4452,14 @@ a:hover{
     }
     .our-vision{
         padding-block-end: 31px;
+    }
+    .our-vision .container-fluid{
+        padding-inline: 0;
+    }
+    .our-vision .vision-row{
+        border-radius: 5px;
+        background-position-x: unset;
+        background-size: 345px;
     }
     .accordion-body{
         padding-block-end: 20px;
