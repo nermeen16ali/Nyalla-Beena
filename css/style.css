@@ -1214,11 +1214,6 @@ footer ul li::marker{
     background-size: 50%;
     background-position-x: 12px;
 }
-.our-mission-area img{
-    padding-block-start: 9px;
-    max-width: 300px;
-    height: 385px;
-}
 .vision-row{
     color: var(--white-color);
     background-color: var(--main-blue-color);
@@ -1242,6 +1237,9 @@ footer ul li::marker{
 .our-vision h1{
     margin-block-end: 138px;
     color: var(--writing-color);
+}
+.our-vision .container-fluid{
+    overflow: hidden;
 }
 .our-vision h2{
     color: var(--writing-color);
@@ -4057,6 +4055,11 @@ a:hover{
         font-size: 30px;
         font-weight: 500;
     }
+    .our-mission-area img{
+        padding-block-start: 9px;
+        max-width: 300px;
+        height: 385px;
+    }
     .companyLogo{
         width: 100%;
     }
@@ -4451,7 +4454,7 @@ a:hover{
     }
     .mission-pic{
         position: absolute;
-        max-width: 284px;
+        max-width: 280px;
         height: 316px;
     }
     .vision-row{
@@ -4617,6 +4620,10 @@ a:hover{
     .offer_lists .slide-pic .of_li_img{
         max-width: 97px;
         max-height: 137px;
+    }
+    .sign_form .ratio_btn button,
+    .sign_form .ratio_btn a{
+        width: 100%;
     }
     .offer_lists .offer_status{
         padding-block: 4px;
