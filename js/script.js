@@ -9,7 +9,7 @@ $('.slick-slider').slick({
   rtl: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -45,7 +45,7 @@ $('.special-slick-slider').slick({
   rtl: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -81,7 +81,7 @@ $('.warning-slick-slider').slick({
   rtl: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -117,7 +117,7 @@ $('.completed-slick-slider').slick({
   rtl: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1280,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,

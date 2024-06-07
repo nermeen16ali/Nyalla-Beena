@@ -8,7 +8,7 @@ $('.slick-slider').slick({
     autoplaySpeed:1500,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -43,7 +43,7 @@ $('.slick-slider').slick({
     autoplaySpeed:1500,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -78,7 +78,7 @@ $('.slick-slider').slick({
     autoplaySpeed:1500,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -113,7 +113,7 @@ $('.slick-slider').slick({
     autoplaySpeed:1500,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -146,7 +146,7 @@ $('.slick-slider').slick({
     autoplaySpeed:1500,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
