@@ -3614,7 +3614,7 @@ a:hover{
         position: relative;
     }
     .our-mission .hero-btns a, .hero-btns button{
-        padding-inline: 30px;;
+        padding-inline: 30px;
     }
 }
 @media (max-width:991px) {
