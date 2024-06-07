@@ -4711,6 +4711,10 @@ a:hover{
     .bootstrap-select>.dropdown-toggle{
         padding-block: 8px;
     }
+    .sign_form .ratio_btn button, .sign_form .ratio_btn a{
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 @media (max-width:400px) {
     .navbar-collapse{
