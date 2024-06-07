@@ -115,7 +115,7 @@ h6.whit{
     width: 232px;
     height: 232px;
     background-color: #EDC33F;
-    gap: 35px;
+    gap: 8px;
 }
 .board_pg .br_img{
     z-index: 2;
@@ -174,7 +174,7 @@ h6.whit{
     text-align: center;
 }
 .board_pg .inner_circle.one{
-    margin-block-start: -10px;
+    margin-block-start: 0;
 }
 .board_pg .carousel-control-next-icon{
     background-image: url(../images/board_nxt.png);
@@ -1215,7 +1215,9 @@ footer ul li::marker{
     background-position-x: 12px;
 }
 .our-mission-area img{
-    padding-block-start: 40px;
+    padding-block-start: 9px;
+    max-width: 300px;
+    height: 385px;
 }
 .vision-row{
     color: var(--white-color);
@@ -1486,7 +1488,8 @@ form .form-select{
 }
 .deal_step_two_img{
     border-radius: 32px;
-    background-image: url(../images/step-two-logo-bg.png);
+    /* background-image: url(../images/step-two-logo-bg.png); */
+    background-image: url(../images/board.png);
     background-repeat: repeat-y;
     padding-block-start: 24px;
     padding-inline: 24px;
@@ -2000,6 +2003,10 @@ form .form-select{
     padding-inline-start: 22px;
     margin-block-start: 60px;
     margin-block-end: 16px;
+}
+.seller_account_box{
+    padding-block: 10px;
+    padding-inline: 10px;
 }
 .getting_support_box{
     padding-block: 32px;
@@ -2543,8 +2550,10 @@ div:not(.no_dl) .deal-successfully.success{
     transform: translate(50%, -40%);
     background-color: #EDC33F;
     z-index: 1;
-    gap: 29px;
-    padding-inline-end: 30px;
+    gap: 10px;
+    padding-inline-end: 20px;
+    width: 280px;
+    height: 280px;
 }
 .board_pg .navbar-brand{
     width: 64px;
@@ -2591,11 +2600,20 @@ div:not(.no_dl) .deal-successfully.success{
     color: #3F4D55;
     margin-block-end: 29px;
 }
-.login_form .step-two-man-pic > img{
-    margin-block-start: 174px;
+.sign_form .inner_circle.one{
+    margin-block-start: 0;
+}
+.login_form .step-two-man-pic > img, .forget_form .step-two-man-pic > img{
+    margin-block-start: 154px;
+    height: 400px;
 }
 .login_form .humous-circle{
     inset-block-start: 35%;
+}
+.sign_form .ratio_btn button,
+.sign_form .ratio_btn a{
+    min-width: 80%;
+    max-width: 80%;
 }
 .forget_form h6{
     font-size: 16px;
@@ -3439,6 +3457,13 @@ a:hover{
 .seller_account_box{
     margin-block-start: 100px;
 }
+.confirm_form .step-two-man-pic > img{
+    margin-block-start: 100px;
+    max-width: 400px;
+}
+.confirm_form .humous-circle{
+    inset-block-start: 30%;
+}
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
@@ -3472,6 +3497,9 @@ a:hover{
     }
     .container-fluid{
         padding-inline: 20px;
+    }
+    .create_form .step-two-man-pic > img {
+        margin-block-start: 230px;
     }
 }
 @media screen and (max-width:1024px){
@@ -3698,8 +3726,8 @@ a:hover{
     }
     .seller_account_box h1{
         font-size: 28px;
-        margin-block:12px;
-        line-height: 40px;
+        margin-block-start:0;
+        margin-block-end:unset;
     }
     .app-details-para{
         font-size: 12px;
@@ -3711,7 +3739,7 @@ a:hover{
         padding-block: 13px;
     }
     .seller_account p:first-of-type{
-        padding-block-start: 0;
+        padding-block-start: 9px;
     }
     .notif_owner h6{
         margin-block-end: 0;
@@ -4098,7 +4126,8 @@ a:hover{
         margin-block-start: 50px;
     } 
     .seller_account_box{
-        margin-block-start: 40px;
+        margin-block-start: 13px;
+        margin-inline: 0;
     }
     .getting_support_box{
         border-radius: unset;
@@ -4380,7 +4409,7 @@ a:hover{
         margin-block-end: 28px;
     }
     .ourstory-text p:first-of-type{
-        margin-block-end: 10px;
+        margin-block-end: 24px;
     }
     .our-mission h1, .our-vision h1{
         margin-block-end: 4px;
@@ -4392,7 +4421,7 @@ a:hover{
         font-size: 24px;
         margin-block-end: 12px;
         margin-block-start: 0;
-        text-align: center;
+        /* text-align: center; */
     }
     h2{
         line-height: 35.28px;
@@ -4423,9 +4452,6 @@ a:hover{
         height: 316px;
     }
     .vision-row{
-        /* background-position-y: bottom;
-        background-size: 327px;
-        background-position-x: 20px; */
         background-image: unset;
     }
     .res_vi_img{
@@ -4442,7 +4468,7 @@ a:hover{
         line-height: 23.52px;
     }
     .vision-text{
-        padding-inline-start: 28px;
+        padding-inline: 28px;
         padding-block-start: 13px;
         padding-block-end: 5px;
     }
