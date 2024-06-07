@@ -3464,6 +3464,9 @@ a:hover{
 .confirm_form .humous-circle{
     inset-block-start: 30%;
 }
+.container-fluid.board_pg{
+    padding-inline: 24px;;
+}
 @media (min-width:1023px) {
     footer .footer-links > div{
         width: 20%;
