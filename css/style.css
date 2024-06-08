@@ -4838,3 +4838,6 @@ a:hover{
 .filter_item .form-check{
     padding-left: 0;
 }
+.filter_item .form-check-input{
+    margin-left: unset;
+}

@@ -786,8 +786,8 @@
 
           // Toggle the dropdown manually
           const dropdown = this.closest('.dropdown');
-          dropdown.classList.toggle('show');
-        });
+            dropdown.classList.toggle('show');
+          });
       });
       document.querySelector('.filter_btn').addEventListener('click', function() {
         var accountSidebar = document.querySelector('.search_page .account_sidebar');
@@ -797,7 +797,28 @@
         var accountSidebar = document.querySelector('.search_page .account_sidebar');
         accountSidebar.classList.remove('active');
       });
+      document.addEventListener('DOMContentLoaded', function() {
+      var dropdownMenus = document.querySelectorAll('.dropdown-menu');
 
+      dropdownMenus.forEach(function(menu) {
+          menu.addEventListener('show.bs.dropdown', function() {
+          // Add a class to the current dropdown menu
+          this.classList.add('active-dropdown');
+      });
+
+    menu.addEventListener('hide.bs.dropdown', function() {
+      // Remove the class from all other dropdown menus
+      dropdownMenus.forEach(function(otherMenu) {
+        if (otherMenu!== this) {
+          otherMenu.classList.remove('active-dropdown');
+        }
+      });
+    });
+  });
+});
+      $('.dropdown-menu li').on('click', function(e) {
+        e.stopPropagation();
+      });
     </script>
   </body>
 </html>
