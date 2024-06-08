@@ -4082,9 +4082,9 @@ a:hover{
         max-width: 300px;
         height: 385px;
     }
-    /* .companyLogo{
+    .companyLogo{
         width: 100%;
-    } */
+    }
     .application_deal_wrapper.deal-wrapper:has( .deal_step_three.active) .default-next-btn, .deal-wrapper.offer_subscribe:has( .deal_step_four.active) .default-next-btn,
     .deal-wrapper.offer_subscribe:has( .final_step.active) .submit-btn{
         display: block !important;
