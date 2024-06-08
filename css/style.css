@@ -2219,7 +2219,7 @@ form .form-select{
     overflow: hidden;
 }
 .companyLogo{
-    width: 190px;
+    /* width: 190px; */
     margin-block-start: 12px;
     margin-block-end: 24px;
 }
@@ -2493,7 +2493,7 @@ div:not(.no_dl) .deal-successfully.success{
     padding-block: 19px;
 }
 .final_step_success .success_deal{
-    margin-block-end: 38px;
+    margin-block: 38px;
 }
 .final_step_success p{
     margin-block-end: 30px;
@@ -3506,12 +3506,21 @@ a:hover{
     .create_form .step-two-man-pic > img {
         margin-block-start: 230px;
     }
+    .dl_pg .slide_btn{
+        padding-inline-end: 12px;
+    }
 }
 @media screen and (max-width:1024px){
     .transaction{
         display: flex;
         align-items: center;
     } 
+    .offer_status{
+        padding-inline: 5px;
+    } 
+    .smtext{
+        font-size: 10px;
+    }
     .transIcon{
         width: 46px;
         height: 46px;
@@ -3616,6 +3625,9 @@ a:hover{
     }
     .our-mission .hero-btns a, .hero-btns button{
         padding-inline: 30px;
+    }
+    .seller_account_box {
+        margin-block-start: 60px;
     }
 }
 @media (max-width:991px) {
@@ -4070,9 +4082,9 @@ a:hover{
         max-width: 300px;
         height: 385px;
     }
-    .companyLogo{
+    /* .companyLogo{
         width: 100%;
-    }
+    } */
     .application_deal_wrapper.deal-wrapper:has( .deal_step_three.active) .default-next-btn, .deal-wrapper.offer_subscribe:has( .deal_step_four.active) .default-next-btn,
     .deal-wrapper.offer_subscribe:has( .final_step.active) .submit-btn{
         display: block !important;
@@ -4724,6 +4736,9 @@ a:hover{
     .sign_form .ratio_btn button, .sign_form .ratio_btn a{
         min-width: 100%;
         max-width: 100%;
+    }
+    .dl_pg .slide_btn{
+        padding-inline-end: unset;
     }
 }
 @media (max-width:400px) {
