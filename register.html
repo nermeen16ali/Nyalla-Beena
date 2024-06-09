@@ -663,6 +663,34 @@
     <script src="js/main.js"></script>
     <script src="js/select.js"></script>
     <script>
+      const codes = document.querySelectorAll('.code-num');
+      codes[0].focus();
+                codes.forEach((input, index1) => {
+                    input.addEventListener("keyup", (e) => {
+                        const currentInput = input,
+                        nextInput = input.nextElementSibling,
+                        prevInput = input.previousElementSibling;
+                        if(currentInput.value.length > 1){
+                            currentInput.value = "";
+                            return;
+                        }
+                        if(nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== ""){
+                            nextInput.removeAttribute("disabled");
+                            nextInput.focus();
+                        }
+                        if(e.key === "Backspace"){
+                            codes.forEach((input, index2) => {
+                                if(index1 <= index2 && prevInput){
+                                    input.setAttribute("disabled", true);
+                                    currentInput.value = "";
+                                    prevInput.focus();
+                                }
+                            })
+                        }
+                    })
+                })
+    </script>
+    <script>
       $(".register_btn").click(function(e) {
         e.preventDefault();
         $(".register_div").hide();
