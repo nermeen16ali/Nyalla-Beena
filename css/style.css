@@ -4930,3 +4930,10 @@ a:hover{
 .col-4 .search_select_box .dropdown-menu{
     padding: 0;
 }
+/* Form submission error */
+.form-group.error .form-control{
+    border-color: #F04438;
+}
+.form-group.error i{
+    color: #F04438 !important;
+}
