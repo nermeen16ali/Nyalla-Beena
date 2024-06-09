@@ -24,10 +24,6 @@
     font-weight: 700;
     font-style: normal;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-    margin-bottom: unset;
-    line-height: unset;
-}
 li{
     list-style: none;
 }
@@ -741,8 +737,7 @@ header{
     -webkit-line-clamp: 1;
     line-clamp: 1 !important;
     -webkit-box-orient: vertical;
-    line-height: 40px;
-    /* font-family: var(--inter-font); */
+    line-height: 40px !important;
 }
 .brand{
     color: var(--text-color);
@@ -4071,7 +4066,7 @@ a:hover{
     }
     .slide-pic h4{
         font-size: 18px;
-        line-height: 40px;
+        line-height: 40px !important;
     } 
     .product-owner{
         font-size: 10.98px;
