@@ -4921,3 +4921,12 @@ a:hover{
 .bootstrap-select .dropdown-menu.inner{
     overflow-x: hidden;
 }
+.ration_container.register_div{
+    display: none;
+}
+.ration_container.register_div.register_create{
+    display: block;
+}
+.col-4 .search_select_box .dropdown-menu{
+    padding: 0;
+}
