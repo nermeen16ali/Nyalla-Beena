@@ -741,6 +741,7 @@ header{
     -webkit-line-clamp: 1;
     line-clamp: 1 !important;
     -webkit-box-orient: vertical;
+    line-height: 40px;
     /* font-family: var(--inter-font); */
 }
 .brand{
