@@ -26,6 +26,7 @@
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
     margin-bottom: unset;
+    line-height: unset;
 }
 li{
     list-style: none;
@@ -740,6 +741,7 @@ header{
     -webkit-line-clamp: 1;
     line-clamp: 1 !important;
     -webkit-box-orient: vertical;
+    font-family: var(--inter-font);
 }
 .brand{
     color: var(--text-color);
