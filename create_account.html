@@ -10,8 +10,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="register_header">
@@ -74,9 +75,10 @@
                         </div>
                     </div>
                     <div class="col-12 mb-24">
-                        <span class="form-label">البلد</span>
-                        <div class="position-relative ">     
-                            <select id="country" name="country" class="form-control">
+                      <span class="form-label">البلد</span>
+                      <div class="form-group">
+                        <div class="search_select_box position-relative country_select">
+                            <select name="country" id="country" class="w-100" data-live-search="true">
                                 <option value="Afghanistan">اختر البلد</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Albania">Albania</option>
@@ -322,48 +324,36 @@
                                 <option value="Zambia">Zambia</option>
                                 <option value="Zimbabwe">Zimbabwe</option>
                             </select>
-                            <div class="svg-container position-absolute ">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_2302_19992)">
-                                    <path d="M10.6711 10.5714C12.3737 7.89975 12.1597 8.23306 12.2087 8.16341C12.8286 7.28909 13.1562 6.26006 13.1562 5.1875C13.1562 2.34313 10.8481 0 8 0C5.16119 0 2.84375 2.3385 2.84375 5.1875C2.84375 6.25938 3.17825 7.31534 3.81844 8.20144L5.32881 10.5714C3.71397 10.8196 0.96875 11.5591 0.96875 13.1875C0.96875 13.7811 1.35619 14.627 3.20194 15.2862C4.49075 15.7465 6.19472 16 8 16C11.3758 16 15.0312 15.0478 15.0312 13.1875C15.0312 11.5588 12.2893 10.8201 10.6711 10.5714ZM4.60153 7.68578C4.59637 7.67772 4.591 7.66984 4.58537 7.66209C4.05266 6.92922 3.78125 6.06066 3.78125 5.1875C3.78125 2.84319 5.66894 0.9375 8 0.9375C10.3262 0.9375 12.2188 2.84403 12.2188 5.1875C12.2188 6.06206 11.9525 6.90116 11.4486 7.61472C11.4034 7.67428 11.639 7.30828 8 13.0184L4.60153 7.68578ZM8 15.0625C4.31269 15.0625 1.90625 13.9787 1.90625 13.1875C1.90625 12.6558 3.14275 11.7814 5.88275 11.4406L7.60469 14.1426C7.69075 14.2776 7.83981 14.3594 7.99997 14.3594C8.16012 14.3594 8.30922 14.2776 8.39525 14.1426L10.1172 11.4406C12.8572 11.7814 14.0938 12.6558 14.0938 13.1875C14.0938 13.9719 11.709 15.0625 8 15.0625Z" fill="#5D686F"></path>
-                                    <path d="M8 2.84375C6.70766 2.84375 5.65625 3.89516 5.65625 5.1875C5.65625 6.47984 6.70766 7.53125 8 7.53125C9.29234 7.53125 10.3438 6.47984 10.3438 5.1875C10.3438 3.89516 9.29234 2.84375 8 2.84375ZM8 6.59375C7.22459 6.59375 6.59375 5.96291 6.59375 5.1875C6.59375 4.41209 7.22459 3.78125 8 3.78125C8.77541 3.78125 9.40625 4.41209 9.40625 5.1875C9.40625 5.96291 8.77541 6.59375 8 6.59375Z" fill="#5D686F"></path>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_2302_19992">
-                                    <rect width="16" height="16" fill="white"></rect>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
-                            </div>
                         </div>
+                      </div>
                     </div>
                     <span class="form-label">رقم الهاتف</span>
-                    <div class="col-3 col-lg-2 ps-0 mb-24">
-                        <select class="form-control form-select">
-                            <option value="+966">+2 EG</option>
-                            <!-- Add more country options here -->
-                            <option value="+967">+2 US</option>
-                            <option value="+968">+2 UK</option>
-                            <!-- Add more country options here -->
-                        </select>
-                    </div>
-                    <div class="col-9 col-lg-10 mb-24">
-                        <div class="position-relative ">
-                            <input type="text" class="form-control" placeholder="اكتب رقم الهاتف هنا...">
-                            <div class="svg-container position-absolute ">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_2302_20005)">
-                                    <path d="M11.5146 16C8.70972 16 5.71444 14.9693 3.3725 12.6275C1.03447 10.2894 0 7.29613 0 4.48541C0 2.00825 2.00413 0 4.48541 0C4.67709 0 4.84944 0.116687 4.92063 0.294656L6.92897 5.3155C7.02513 5.55587 6.90822 5.82866 6.66787 5.92481L4.46172 6.80725C4.61778 9.34531 6.65509 11.3825 9.19275 11.5383L10.0752 9.33219C10.1712 9.09222 10.4438 8.97487 10.6845 9.07106L15.7053 11.0794C15.8833 11.1506 16 11.3229 16 11.5146C16 13.9918 13.9959 16 11.5146 16ZM4.17344 0.950938C2.37819 1.10628 0.9375 2.61172 0.9375 4.48541C0.9375 7.31066 2.03769 9.96681 4.03544 11.9645C6.03316 13.9623 8.68931 15.0625 11.5146 15.0625C13.3877 15.0625 14.8936 13.6226 15.0491 11.8266L10.7716 10.1156L9.94147 12.1908C9.87031 12.3687 9.69794 12.4854 9.50625 12.4854C6.20222 12.4854 3.51459 9.79778 3.51459 6.49425C3.51459 6.30259 3.63128 6.12969 3.80925 6.05853L5.88444 5.22844L4.17344 0.950938Z" fill="#5D686F"></path>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_2302_20005">
-                                    <rect width="16" height="16" fill="white"></rect>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
-                            </div>
+                    <div class="col-8 col-lg-9 col-xxl-10 mb-24">
+                      <div class="position-relative">
+                        <div class="svg-container position-absolute tele">
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g clip-path="url(#clip0_2302_20005)">
+                              <path d="M11.5146 16C8.70972 16 5.71444 14.9693 3.3725 12.6275C1.03447 10.2894 0 7.29613 0 4.48541C0 2.00825 2.00413 0 4.48541 0C4.67709 0 4.84944 0.116687 4.92063 0.294656L6.92897 5.3155C7.02513 5.55587 6.90822 5.82866 6.66787 5.92481L4.46172 6.80725C4.61778 9.34531 6.65509 11.3825 9.19275 11.5383L10.0752 9.33219C10.1712 9.09222 10.4438 8.97487 10.6845 9.07106L15.7053 11.0794C15.8833 11.1506 16 11.3229 16 11.5146C16 13.9918 13.9959 16 11.5146 16ZM4.17344 0.950938C2.37819 1.10628 0.9375 2.61172 0.9375 4.48541C0.9375 7.31066 2.03769 9.96681 4.03544 11.9645C6.03316 13.9623 8.68931 15.0625 11.5146 15.0625C13.3877 15.0625 14.8936 13.6226 15.0491 11.8266L10.7716 10.1156L9.94147 12.1908C9.87031 12.3687 9.69794 12.4854 9.50625 12.4854C6.20222 12.4854 3.51459 9.79778 3.51459 6.49425C3.51459 6.30259 3.63128 6.12969 3.80925 6.05853L5.88444 5.22844L4.17344 0.950938Z" fill="#5D686F"></path>
+                              </g>
+                              <defs>
+                              <clipPath id="clip0_2302_20005">
+                              <rect width="16" height="16" fill="white"></rect>
+                              </clipPath>
+                              </defs>
+                          </svg>
                         </div>
+                          <input type="text" class="form-control" placeholder="اكتب رقم الهاتف هنا..." dir="ltr">
+                      </div>
+                  </div>
+                  <div class="col-4 col-lg-3 col-xxl-2 mb-24">
+                    <div class="search_select_box position-relative">
+                      <select name="country" class="w-100" data-live-search="true">
+                            <option value="Åland Islands">+2 EG</option>
+                            <option value="Albania">+2 US</option>
+                            <option value="Algeria">+2 UK</option>
+                      </select>
                     </div>
+                  </div>
                     <div class="col-12 mb-24">
                         <span class="form-label">البريد الالكتروني</span>
                         <div class="position-relative ">
@@ -434,6 +424,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <!-- Shards-UI JS library -->
+    <script src="https://unpkg.com/shards-ui@latest/dist/js/shards.min.js"></script>
+    
+    <!-- Font Awesome & Bootstrap Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/js/intlTelInput.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/select.js"></script>
   </body>
 </html>

@@ -270,10 +270,10 @@
               </button>
                 <h4>فلتر البحث</h4>
                 <div class="filter_item dropdown">
-                  <a class="dropdown-toggle show header" href="#" id="kind" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  <p class="dropdown-toggle show header">
                     نوع الجهاز
-                  </a>
-                  <ul class="dropdown-menu show position-relative " aria-labelledby="kind" data-bs-popper="none">
+                  </p>
+                  <ul class="dropdown-menu position-relative">
                     <li class="d-flex align-items-center justify-content-between form-check">
                       <label class="form-check-label" for="washer">غسالة</label>
                       <input type="checkbox" class="form-check-input" id="washer" checked>
@@ -297,10 +297,10 @@
                   </ul>
                 </div>
                 <div class="filter_item dropdown">
-                  <a class="dropdown-toggle show header" href="#" id="price" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  <p class="dropdown-toggle show header">
                     السعر
-                  </a>
-                  <div class="dropdown-menu show position-relative " aria-labelledby="price" data-bs-popper="none">
+                  </p>
+                  <div class="dropdown-menu position-relative">
                       <div class="d-flex align-items-center field_groups mb-24">
                         <div class="field">
                             <input type="number" class="input-min form-control" value="700">
@@ -320,17 +320,17 @@
                   </div>
                 </div>
                 <div class="filter_item dropdown">
-                  <a class="dropdown-toggle header" href="#" id="color" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  <p class="dropdown-toggle header">
                     اللون
-                  </a>
-                  <ul class="dropdown-menu position-relative " aria-labelledby="color" data-bs-popper="none">
+                  </p>
+                  <ul class="dropdown-menu position-relative">
                   </ul>
                 </div>
                 <div class="filter_item dropdown">
-                  <a class="dropdown-toggle header" href="#" id="brand" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  <p class="dropdown-toggle header">
                     العلامات التجارية
-                  </a>
-                  <ul class="dropdown-menu position-relative " aria-labelledby="brand" data-bs-popper="none">
+                  </p>
+                  <ul class="dropdown-menu position-relative ">
                   </ul>
                 </div>
                 <button class="bg-transparent re_filter">اعادة ترتيب الفلتر</button>
@@ -775,49 +775,9 @@
           }
         })
       });
-      // Get all dropdown toggles
-      const dropdownToggles = document.querySelectorAll('.search_page .dropdown-toggle');
-
-      // Add event listener to each dropdown toggle
-      dropdownToggles.forEach(toggle => {
-        toggle.addEventListener('click', function(event) {
-          // Prevent the default behavior of the dropdown toggle
-          event.preventDefault();
-
-          // Toggle the dropdown manually
-          const dropdown = this.closest('.dropdown');
-            dropdown.classList.toggle('show');
-          });
-      });
-      document.querySelector('.filter_btn').addEventListener('click', function() {
-        var accountSidebar = document.querySelector('.search_page .account_sidebar');
-        accountSidebar.classList.add('active');
-      });
-      document.querySelector('.close_filter').addEventListener('click', function() {
-        var accountSidebar = document.querySelector('.search_page .account_sidebar');
-        accountSidebar.classList.remove('active');
-      });
-      document.addEventListener('DOMContentLoaded', function() {
-      var dropdownMenus = document.querySelectorAll('.dropdown-menu');
-
-      dropdownMenus.forEach(function(menu) {
-          menu.addEventListener('show.bs.dropdown', function() {
-          // Add a class to the current dropdown menu
-          this.classList.add('active-dropdown');
-      });
-
-    menu.addEventListener('hide.bs.dropdown', function() {
-      // Remove the class from all other dropdown menus
-      dropdownMenus.forEach(function(otherMenu) {
-        if (otherMenu!== this) {
-          otherMenu.classList.remove('active-dropdown');
-        }
-      });
-    });
-  });
-});
-      $('.dropdown-menu li').on('click', function(e) {
-        e.stopPropagation();
+      $(".filter_item .dropdown-toggle").click(function() {
+        $(this).toggleClass("show");
+        $(this).next(".dropdown-menu").toggle();
       });
     </script>
   </body>
