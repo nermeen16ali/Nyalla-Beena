@@ -4621,6 +4621,9 @@ a:hover{
         padding-block: 10px;
         border-radius: 8px;
     }
+    .search_page .account_sidebar .dropdown-menu{
+        margin-block: 0;
+    }
     .whats_btn{
         font-size: 12px;
         border-radius: 8px;

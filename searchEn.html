@@ -749,6 +749,23 @@
           }
         })
       });
+
+      const dropdownToggles = document.querySelectorAll('.search_page .dropdown-toggle');
+      dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', function(event) {
+          event.preventDefault();
+          const dropdown = this.closest('.dropdown');
+          dropdown.classList.toggle('show');
+        });
+      });
+      document.querySelector('.filter_btn').addEventListener('click', function() {
+        var accountSidebar = document.querySelector('.search_page .account_sidebar');
+        accountSidebar.classList.add('active');
+      });
+      document.querySelector('.close_filter').addEventListener('click', function() {
+        var accountSidebar = document.querySelector('.search_page .account_sidebar');
+        accountSidebar.classList.remove('active');
+      });
       $(".filter_item .dropdown-toggle").click(function() {
         $(this).toggleClass("show");
         $(this).next(".dropdown-menu").toggle();
