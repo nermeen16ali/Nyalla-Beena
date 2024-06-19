@@ -126,7 +126,6 @@ h6.whit{
 .board_pg .inner_circle.two{
     margin-block-start: -25px;
 }
-/* .board_pg .br_img */
 .board_pg .board_lg{
     display: block;
     padding-block-start: 28px;
@@ -1485,7 +1484,6 @@ form .form-select{
 }
 .deal_step_two_img{
     border-radius: 32px;
-    /* background-image: url(../images/step-two-logo-bg.png); */
     background-image: url(../images/board.png);
     background-repeat: repeat-y;
     padding-block-start: 24px;
@@ -1676,14 +1674,6 @@ form .form-select{
     color: var(--text-color);
     font-weight: normal;
 }
-.account_sidebar{
-    background-color: var(--white-color);
-    box-shadow: 2px 6px 4px 0px #0000000A;
-    border-radius: 12px;
-    padding-inline-start: 24px;
-    padding-inline-end: 44px;
-    padding-block: 24px;
-}
 .sidebar_header{
     padding-block-end: 24px;
     border-bottom: 1px solid rgba(93, 104, 111, 0.3);
@@ -1698,10 +1688,6 @@ form .form-select{
     font-size: 14px;
     font-weight: 400;
     color: var(--text-color);
-}
-.sidebar_links{
-    padding-block-start: 34px;
-    padding-block-end: 116px;
 }
 .sidebar_link{
     font-size: 16px;
@@ -1721,9 +1707,6 @@ form .form-select{
 }
 .setting_notification{
     width: 18px;
-}
-.setting_page .sidebar_item img, .setting_page .sidebar_item svg{
-    margin-inline-end: 12px;
 }
 .sidebar_item span i{
     font-size: 16px;
@@ -2090,6 +2073,7 @@ form .form-select{
     font-size: 14px;
     font-weight: 400;
     color: var(--text-color);
+    padding-inline: 12px;
 }
 .notif_owner p{
     padding-block-start: 4px;
@@ -2224,7 +2208,6 @@ form .form-select{
     overflow: hidden;
 }
 .companyLogo{
-    /* width: 190px; */
     margin-block-start: 12px;
     margin-block-end: 24px;
 }
@@ -2839,10 +2822,6 @@ div:not(.no_dl) .deal-successfully.success{
 .search_page .account_sidebar li:not(:last-child){
     margin-block-end: 16px;
 }
-/* .filter_item{
-    padding-block-end: 20px;
-    padding-block-start: 16px;
-} */
 .filter_item:not(:last-child){
     border-bottom: 1px solid #ECECEC;
 }
@@ -3073,14 +3052,6 @@ div:not(.no_dl) .deal-successfully.success{
   }
   .search_page .account_sidebar .dropdown-toggle::after{
     display: none;
-}
-/* .search_page .account_sidebar .dropdown-menu.show{
-    transform: translate(0px, 0px)!important;
-    border: unset;
-    border-radius: unset;
-} */
-.setting_page h3{
-    font-size: 30px;
 }
 .delete_account, .log_out{
     font-size: 14px;
@@ -3420,7 +3391,6 @@ a:hover{
   }
 .bootstrap-select>.dropdown-toggle{
     height: 56px;
-    /* border: 1px solid #96A3AE; */
 }
 .bootstrap-select.dropdown-menu.inner {
     direction: rtl;
@@ -3460,10 +3430,6 @@ a:hover{
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner{
     text-align: -webkit-auto;
 }
-/* .bootstrap-select .dropdown-toggle{
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-} */
 .seller_account_box{
     margin-block-start: 100px;
 }
@@ -3501,6 +3467,18 @@ a:hover{
     }
     .ration_container.big_pd{
         padding-block: 60px;
+    }
+    .account_sidebar{
+        background-color: var(--white-color);
+        box-shadow: 2px 6px 4px 0px #0000000A;
+        border-radius: 12px;
+        padding-inline-start: 24px;
+        padding-inline-end: 44px;
+        padding-block: 24px;
+    }
+    .sidebar_links{
+        padding-block-start: 34px;
+        padding-block-end: 116px;
     }
 }
 @media (max-width:1280px) {
@@ -4467,7 +4445,6 @@ a:hover{
         font-size: 24px;
         margin-block-end: 12px;
         margin-block-start: 0;
-        /* text-align: center; */
     }
     h2{
         line-height: 35.28px;
@@ -4761,6 +4738,12 @@ a:hover{
     .dl_pg .slide_btn{
         padding-inline-end: unset;
     }
+    .notif_item p{
+        margin-block-start: 12px;
+    }
+    .delete_account{
+        padding-block-end: 32px;
+    }
 }
 @media (max-width:400px) {
     .navbar-collapse{
@@ -4792,9 +4775,6 @@ a:hover{
         margin-block-start: 19px;
         font-size: 16px;
     }
-    /* .board_pg .step-two-man-pic > img{
-        max-height: 250px;
-    } */
     .board_pg .carousel-item p{
         font-size: 11px;
     }
@@ -4817,36 +4797,6 @@ a:hover{
         font-size: 16px;
     }
 }
-/* .dropdown {
-    color: #fff;
-    position: relative;
-  }
-  
-  .dropdown-menu {
-    border-radius: 12px;
-    padding: 0;
-    overflow: hidden;
-    animation: rotateMenu 600ms ease-in-out forwards;
-    transform-origin: top center;
-    
-  }
-  .dropdown-menu a{
-    color: #000;
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    height: 50px;
-    line-height: 50px;
-    padding: 8px;
-    padding-block: 0;
-  }
-  .dropdown:not(.filter_item) .dropdown-menu {
-    background: var(--white-color);
-    border-radius: 0;
-    border-radius: 12px;
-  } */
 .search_select_box{
     border-radius: 8px;
     border: 1px solid #96A3AE ;
@@ -4873,7 +4823,6 @@ a:hover{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     max-height: 177.9px;
-    /* min-height: 160px; */
     position: absolute;
     top: 0px;
     left: 0px;
