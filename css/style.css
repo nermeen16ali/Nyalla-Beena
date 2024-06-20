@@ -4881,3 +4881,8 @@ a:hover{
 .form-group.error i{
     color: #F04438 !important;
 }
+/* notif_active */
+.notif_active{
+    inset-inline-end: 8px;
+    inset-block-start: -6px;
+}
