@@ -3841,6 +3841,9 @@ a:hover{
         width: calc(100% - 34px);
         inset-inline-start: -100%;
         inset-block-start: 154px;
+        background-color: var(--white-color);
+        padding-block: 20px;
+        border-radius: 8px;
         transition: all 0.5s ease-in-out;
     }
     .search_page .account_sidebar.active{
